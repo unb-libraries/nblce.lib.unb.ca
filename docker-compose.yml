@@ -46,7 +46,7 @@ services:
     networks:
       - nblce.lib.unb.ca
     ports:
-      - "3105:80"
+      - "3108:80"
     env_file:
       - ./env/drupal.env
     volumes:
@@ -62,7 +62,7 @@ services:
       - "1025"
       - "8025"
     ports:
-      - "4105:8025"
+      - "4108:8025"
     networks:
       - nblce.lib.unb.ca
 
