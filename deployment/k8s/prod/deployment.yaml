@@ -13,12 +13,12 @@ metadata:
   name: nblce-lib-unb-ca
   namespace: prod
 spec:
-  replicas: 1
+  replicas: 2
   revisionHistoryLimit: 2
   strategy:
     type: RollingUpdate
     rollingUpdate:
-      maxSurge: 1
+      maxSurge: 2
       maxUnavailable: 0
   template:
     metadata:
