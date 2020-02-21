@@ -1,0 +1,108 @@
+{
+    "authors": [
+        {
+            "name": "UNB Libraries libsupport@unb.ca",
+            "role": "Creator"
+        }
+    ],
+    "autoload": {
+        "classmap": [
+            "scripts/composer/ScriptHandler.php"
+        ]
+    },
+    "config": {
+        "preferred-install": {
+            "*": "dist"
+        }
+    },
+    "conflict": {
+        "drupal/drupal": "*"
+    },
+    "description": "Drupal 8 component of nblce.lib.unb.ca",
+    "extra": {
+        "enable-patching": true,
+        "installer-paths": {
+            "core": [
+                "type:drupal-core"
+            ],
+            "drush/contrib/{$name}": [
+                "type:drupal-drush"
+            ],
+            "libraries/{$name}": [
+                "type:drupal-library"
+            ],
+            "modules/contrib/{$name}": [
+                "type:drupal-module"
+            ],
+            "profiles/contrib/{$name}": [
+                "type:drupal-profile"
+            ],
+            "themes/contrib/{$name}": [
+                "type:drupal-theme"
+            ]
+        },
+        "patches": {}
+    },
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "name": "unb-libraries/nblce.lib.unb.ca",
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://packages.drupal.org/8"
+        },
+        {
+            "type": "package",
+            "package": {
+                "name": "w8tcha/CKEditor-CodeMirror-Plugin",
+                "version": "1.17.12",
+                "type": "drupal-library",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://github.com/w8tcha/CKEditor-CodeMirror-Plugin/archive/v1.17.12.zip"
+                },
+                "extra": {
+                    "installer-name": "ckeditor_codemirror"
+                }
+            }
+        }
+    ],
+    "require": {
+        "drupal/bootstrap4": "1.0-rc4",
+        "drupal/config_update": "1.5",
+        "drupal/core": "8.8.2",
+        "drupal/fontawesome": "2.14",
+        "drupal/google_analytics": "2.4",
+        "drupal/health_check": "1.2",
+        "drupal/ldap": "3.0-beta7",
+        "drupal/paragraphs": "1.10",
+        "drupal/pathauto": "1.6",
+        "drupal/redis": "1.4",
+        "drupal/search_api": "1.15",
+        "drupal/search_api_solr": "3.9",
+        "drupal/simple_sitemap": "3.5",
+        "drupal/token": "1.6",
+        "drupal/twig_tweak": "2.4",
+        "unb-libraries/drupal-builder": "^8.0.0"
+    },
+    "require-dev": {
+        "unb-libraries/drupal-development-libraries": "8.0.6"
+    },
+    "scripts": {
+        "drupal-scaffold": "DrupalComposer\\DrupalScaffold\\Plugin::scaffold",
+        "post-install-cmd": [
+            "DrupalProject\\composer\\ScriptHandler::createRequiredFiles"
+        ],
+        "post-update-cmd": [
+            "DrupalProject\\composer\\ScriptHandler::createRequiredFiles"
+        ],
+        "pre-install-cmd": [
+            "DrupalProject\\composer\\ScriptHandler::checkComposerVersion"
+        ],
+        "pre-update-cmd": [
+            "DrupalProject\\composer\\ScriptHandler::checkComposerVersion"
+        ]
+    },
+    "type": "project"
+}

@@ -1,0 +1,13 @@
+{
+    "name": "nblce_core",
+    "type": "drupal-module",
+    "description": "Provides core functionality for the nblce site.",
+    "keywords": [
+    ],
+    "homepage": "https://www.drupal.org/project/nblce_core",
+    "minimum-stability": "dev",
+    "support": {
+        "issues": "https://www.drupal.org/project/issues/nblce_core",
+        "source": "http://cgit.drupalcode.org/nblce_core"
+    }
+}
