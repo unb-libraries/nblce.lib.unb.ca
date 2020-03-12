@@ -1,10 +1,12 @@
-// Path to default bootstrap4 sass.
+// Include bootstrap variables definitions overrides.
+@import 'overrides/variables';
+
+// Include parent theme with all things Bootstrap for full override.
 @import '../../../../../vendor/drupal/bootstrap4/dist/bootstrap/4.4.1/scss/bootstrap';
 
-// Path to default bootstrap4 theme sass.
-// @import '../../../../../vendor/drupal/bootstrap4/scss/theme';
+// Include custom sub theme.
+@import 'custom/variables';
 
-/* Subtheme Sass Imports */
-@import 'variables';
-@import 'overrides';
-@import 'misc';
+// Include custom sub theme.
+//@import 'custom/mixins/misc';
+//@import 'custom/misc';
