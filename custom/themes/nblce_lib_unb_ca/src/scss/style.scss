@@ -1,6 +1,26 @@
-// Include custom sub theme.
+/* Include custom sub theme. */
 @import 'import';
 
 body {
+  background: $bg-light;
   font-family: 'Myriad Pro', 'PT Sans', sans-serif;
+  font-size: 1.2rem;
+}
+
+a {
+  color: $primary;
+
+  &:focus,
+  &:hover {
+    background: inherit;
+    color: $primary-dark;
+    text-decoration: underline;
+  }
+}
+
+h1 {
+  color: $primary;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  text-transform: uppercase;
 }
