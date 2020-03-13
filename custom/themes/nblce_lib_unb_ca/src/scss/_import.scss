@@ -2,7 +2,7 @@
 @import 'overrides/variables';
 
 // Include parent theme with all things Bootstrap for full override.
-@import '../../../../../vendor/drupal/bootstrap4/dist/bootstrap/4.4.1/scss/bootstrap';
+@import '../../../../../vendor/drupal/bootstrap4/scss/style';
 
 // Include custom sub theme.
 @import 'custom/variables';
