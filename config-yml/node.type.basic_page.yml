@@ -8,7 +8,8 @@ third_party_settings:
   menu_ui:
     available_menus:
       - main
-    parent: 'main:'
+      - modules-content
+    parent: 'modules-content:'
 name: 'Basic page'
 type: basic_page
 description: 'Use basic pages for your static content, such as an ''About'' or ''Resources'' page.'
