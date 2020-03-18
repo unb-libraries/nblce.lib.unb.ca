@@ -1,4 +1,4 @@
-uuid: 3ff6b90c-4f52-4beb-b0c0-bf9ccfc7280e
+uuid: 88c4fba5-5113-4081-a66e-d14f6a5b5169
 langcode: en
 status: true
 dependencies:
@@ -9,7 +9,7 @@ dependencies:
 id: sitebranding
 theme: nblce_lib_unb_ca
 region: nav_branding
-weight: 0
+weight: -4
 provider: null
 plugin: system_branding_block
 settings:
@@ -18,6 +18,6 @@ settings:
   provider: system
   label_display: '0'
   use_site_logo: true
-  use_site_name: false
-  use_site_slogan: false
+  use_site_name: true
+  use_site_slogan: true
 visibility: {  }

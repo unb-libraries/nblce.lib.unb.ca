@@ -1,0 +1,25 @@
+uuid: 462cb8b9-96aa-4bd2-8c7e-3b570f197831
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.modules-content
+  module:
+    - system
+  theme:
+    - nblce_lib_unb_ca
+id: modulescontent
+theme: nblce_lib_unb_ca
+region: sidebar_first
+weight: 0
+provider: null
+plugin: 'system_menu_block:modules-content'
+settings:
+  id: 'system_menu_block:modules-content'
+  label: Modules/Content
+  provider: system
+  label_display: visible
+  level: 1
+  depth: 0
+  expand_all_items: true
+visibility: {  }
