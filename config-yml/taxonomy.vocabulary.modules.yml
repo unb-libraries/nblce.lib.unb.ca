@@ -1,8 +1,0 @@
-uuid: b917b461-5b62-4cdf-9874-82d0fa390da4
-langcode: en
-status: true
-dependencies: {  }
-name: Modules/Content
-vid: modules
-description: ''
-weight: 0
