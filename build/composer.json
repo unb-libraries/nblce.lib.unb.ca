@@ -55,7 +55,7 @@
         {
             "type": "package",
             "package": {
-                "name": "w8tcha/CKEditor-CodeMirror-Plugin",
+                "name": "w8tcha/ckeditor-codemirror-plugin",
                 "version": "1.17.12",
                 "type": "drupal-library",
                 "dist": {
@@ -70,6 +70,7 @@
     ],
     "require": {
         "drupal/bootstrap4": "1.0-rc4",
+        "drupal/ckeditor_codemirror": "2.2",
         "drupal/config_update": "1.5",
         "drupal/core": "8.8.4",
         "drupal/fontawesome": "2.14",
@@ -84,7 +85,8 @@
         "drupal/simple_sitemap": "3.5",
         "drupal/token": "1.6",
         "drupal/twig_tweak": "2.4",
-        "unb-libraries/drupal-builder": "^8.0.0"
+        "unb-libraries/drupal-builder": "^8.0.0",
+        "w8tcha/ckeditor-codemirror-plugin": "^1.17.12"
     },
     "require-dev": {
         "unb-libraries/drupal-development-libraries": "8.0.6"
