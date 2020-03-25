@@ -20,9 +20,17 @@ a {
 
 h1 {
   color: $primary;
+  font-size: 2rem;
   font-weight: bold;
   margin-bottom: 1rem;
   text-transform: uppercase;
+}
+
+h2,
+.h2 {
+  color: $primary;
+  font-size: 1.5rem;
+  font-weight: bold;
 }
 
 /* Header: branding & main nav */
@@ -102,5 +110,12 @@ header {
         font-size: 1.2rem;
       }
     }
+  }
+}
+
+/* Main content */
+.region-content {
+  p + h2 {
+    margin-top: 2rem;
   }
 }
