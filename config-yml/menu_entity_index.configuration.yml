@@ -1,0 +1,7 @@
+all_menus: false
+entity_types:
+  node: node
+menus:
+  modules-content: modules-content
+_core:
+  default_config_hash: N0NuJlV53T4Gi5cJMycuXZtKANjEXiphxOrwVGeZXko
