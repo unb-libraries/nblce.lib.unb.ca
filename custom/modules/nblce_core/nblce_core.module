@@ -22,3 +22,44 @@ function nblce_core_help($route_name, RouteMatchInterface $route_match) {
     default:
   }
 }
+
+/**
+ * Implements hook_node_presave().
+ */
+function nblce_core_node_presave ($node) {
+    // Trim leading/trailing whitespace from title input.
+    $title_field = $node
+        ->get('title')
+        ->getString();
+    $title = $title_field ? trim($title_field) : 'Undefined!';
+    if ($title != $title_field) {
+        $node->setTitle($title_field);
+    }
+
+    switch ($node->getType()) {
+        case 'author_page':
+            // Set listing title and section field defaults, if applicable.
+            if ($node->hasField('field_sort_name')) {
+                $listing_title = trim($node->get('field_sort_name')->getString());
+                $listing_title = (empty($listing_title)) ? $title_field : $listing_title;
+            }
+            else {
+                $listing_title = NULL;
+            }
+
+            if (empty($node->get('field_sort_name')->getValue())) {
+                $names = explode(' ', $listing_title);
+                if ($names[0] === 'The') {
+                    $first_names = ', ' . array_shift($names);
+                    $last_name = (!empty($names)) ? implode(' ', $names) : NULL;
+                }
+                else {
+                    $last_name = array_pop($names);
+                    $first_names = (!empty($names)) ? ', ' . implode(' ', $names) : NULL;
+                }
+                $listing_title = $last_name . $first_names;
+                $node->set('field_sort_name', $listing_title);
+            }
+            break;
+    }
+}
