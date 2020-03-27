@@ -1,0 +1,22 @@
+uuid: 33a2be81-9e72-4852-bce8-f8ee7ad6b639
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: authors_page_rule
+label: 'Authors page rule'
+type: 'canonical_entities:node'
+pattern: 'resources/authors/[node:title]'
+selection_criteria:
+  8633eea1-49ee-47ee-ae30-f093fb089c7a:
+    id: node_type
+    bundles:
+      author_page: author_page
+    negate: false
+    context_mapping:
+      node: node
+    uuid: 8633eea1-49ee-47ee-ae30-f093fb089c7a
+selection_logic: and
+weight: -5
+relationships: {  }
