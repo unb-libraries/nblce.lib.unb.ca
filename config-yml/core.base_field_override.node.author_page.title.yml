@@ -1,0 +1,18 @@
+uuid: abc19079-7718-4f98-8e0d-f86c79f474e4
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.author_page
+id: node.author_page.title
+field_name: title
+entity_type: node
+bundle: author_page
+label: 'Author Name'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

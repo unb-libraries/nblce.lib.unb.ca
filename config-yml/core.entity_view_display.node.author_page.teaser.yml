@@ -1,0 +1,32 @@
+uuid: fb2ffbb8-8be4-4c99-b1d3-bb5572d159a0
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.author_page.body
+    - field.field.node.author_page.field_sort_name
+    - node.type.author_page
+  module:
+    - text
+    - user
+id: node.author_page.teaser
+targetEntityType: node
+bundle: author_page
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  field_sort_name: true

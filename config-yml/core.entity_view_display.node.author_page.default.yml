@@ -1,0 +1,30 @@
+uuid: ba7c6062-867a-46f4-928c-2905b4078381
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.author_page.body
+    - field.field.node.author_page.field_sort_name
+    - node.type.author_page
+  module:
+    - text
+    - user
+id: node.author_page.default
+targetEntityType: node
+bundle: author_page
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 1
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  field_sort_name: true
