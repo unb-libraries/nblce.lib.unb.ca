@@ -4,5 +4,5 @@ status: true
 dependencies: {  }
 id: modules-content
 label: Modules/Content
-description: ''
+description: 'Module (literary periods or clusters) links'
 locked: false
