@@ -14,7 +14,7 @@
  */
 #}
 {% block content %}
-  <a href="{{ path('<front>') }}" title="{{ 'Home'|t }}" rel="home" class="align-items-center d-flex navbar-brand">
+  <a href="{{ path('<front>') }}" title="{{ 'Home'|t }}" rel="home" class="align-items-center d-inline-block navbar-brand">
     {% if site_logo %}
       <img src="{{ site_logo }}" alt="{{ 'NBLCE'|t }}" class="img-fluid" />
     {% endif %}

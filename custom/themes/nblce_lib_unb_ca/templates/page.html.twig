@@ -60,12 +60,12 @@ set footer_classes = '' ~
   {{ page.header }}  
 
   {% if page.nav_branding or page.nav_main or page.nav_additional %}  
-    <div class="d-flex no-gutters align-items-end">
-      <div class="navbar-brand flex-shrink-1">
+    <div class="row align-items-end">
+      <div class="navbar-brand col-4 col-sm-6 col-lg-3 text-center">
         {{ page.nav_branding }}
       </div>
 
-      <div class="navbar flex-grow-1 p-0 pb-lg-4">
+      <div class="navbar col-8 col-sm-6 col-lg-9 pb-lg-4">
         {{ page.nav_main }}
       </div>
       {{ page.nav_additional }}
