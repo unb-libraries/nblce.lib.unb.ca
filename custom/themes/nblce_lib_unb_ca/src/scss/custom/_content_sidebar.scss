@@ -9,6 +9,7 @@
     font-weight: bold;
     margin: 1rem 0;
     text-align: center;
+    text-shadow: 0 0 1px;
     text-transform: uppercase;
   }
 
@@ -30,6 +31,7 @@
         }
 
         &.dropdown-toggle {
+          text-shadow: 0 0 1px;
           text-transform: uppercase;
           white-space: normal;
         }
