@@ -220,8 +220,8 @@ display:
         title: 'Module List: Chronological'
         description: ''
         expanded: false
-        parent: 'menu_link_content:d391af9a-06fc-47fe-9216-3dc9a0b559aa'
-        weight: 5
+        parent: 'menu_link_content:c831b449-5a22-4722-9a35-0e91557379f4'
+        weight: -49
         context: '0'
         menu_name: main
     cache_metadata:
