@@ -1,5 +1,5 @@
 global-styling:
   css:
     theme:
-      '//fonts.googleapis.com/css?family=PT+Sans&display=swap': {  type: external, minified: true }
+      '//fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400&display=swap': {  type: external, minified: true }
       dist/css/style.css: { minified: true }
