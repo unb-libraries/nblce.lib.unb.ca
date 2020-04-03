@@ -3,7 +3,7 @@
     <msapplication>
         <tile>
             <square150x150logo src="/themes/custom/nblce_lib_unb.ca/mstile-150x150.png"/>
-            <TileColor>#ba6128</TileColor>
+            <TileColor>#fbf6ed</TileColor>
         </tile>
     </msapplication>
 </browserconfig>

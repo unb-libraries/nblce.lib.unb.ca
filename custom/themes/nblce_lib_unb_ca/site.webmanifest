@@ -1,6 +1,6 @@
 {
-    "name": "",
-    "short_name": "",
+    "name": "NB Literature Curriculum",
+    "short_name": "NB Literature Curriculum",
     "icons": [
         {
             "src": "/themes/custom/nblce_lib_unb.ca/android-chrome-192x192.png",
@@ -13,7 +13,7 @@
             "type": "image/png"
         }
     ],
-    "theme_color": "#ba6128",
-    "background_color": "#ba6128",
+    "theme_color": "#fbf6ed",
+    "background_color": "#fbf6ed",
     "display": "standalone"
 }
