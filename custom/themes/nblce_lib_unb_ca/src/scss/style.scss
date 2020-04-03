@@ -9,6 +9,7 @@ body {
 
 a {
   color: $primary;
+  transition: all .25s ease-in;
 
   &:focus,
   &:hover {
