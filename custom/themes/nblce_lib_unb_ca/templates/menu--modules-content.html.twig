@@ -30,7 +30,7 @@
   {% import _self as menus %}
   {% if items %}
     {% if menu_level == 0 %}
-      <ul class="nav navbar-nav">
+      <ul class="nav navbar-nav" id="accordian">
     {% else %}
       {% set show_sub_menu = false %}
       {% for item in items %}
@@ -38,7 +38,7 @@
           {% set show_sub_menu = true %}
         {% endif %}
       {% endfor %}
-      <ul id="item{{ menu_item }}" class="collapse {{ show_sub_menu ? ' show' }}">
+      <ul id="item{{ menu_item }}" class="collapse{{ show_sub_menu ? ' show' }}" data-parent="#accordian">
     {% endif %}
     {% for item in items %}
       {%
