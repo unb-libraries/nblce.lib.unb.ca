@@ -3,12 +3,12 @@
   border: 3px solid $primary-dark;
   padding: 1rem .5rem;
 
-  h2,h5 {
+  h2 {
     color: $primary;
     font-size: 1.33rem;
     font-weight: bold;
     margin: 1rem 0;
-    text-align: center;
+    /*text-align: center;*/
     text-transform: uppercase;
   }
 
@@ -19,11 +19,11 @@
       line-height: 1.3rem;
       list-style-type: none;
       margin-bottom: .75rem;
-      text-align: center;
+      /*text-align: center;*/
 
       a {
         color: $primary-dark;
-        padding: 0.25rem 1rem;
+        /*padding: 0.25rem 1rem;*/
 
         &:hover {
           color: $primary;
@@ -56,5 +56,19 @@
         }
       }
     }
+  }
+}
+@media (max-width: 991px) {
+  #accordian {
+    margin-top: 1rem;
+
+    &:not(.show) {
+      display: none;
+    }
+  }
+}
+@media (min-width: 992px) {
+  #accordian:not(.show) {
+    display: block;
   }
 }
