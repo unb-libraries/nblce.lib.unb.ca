@@ -3,8 +3,24 @@
 
 body {
   background: $bg-light;
-  font-family: 'Myriad Pro', 'PT Sans', sans-serif;
-  font-size: 1.2rem;
+  font-family: $text-font-family;
+  font-size: 1rem;
+}
+h1, h2, h3 {
+  font-family: $header-font-family;
+}
+h1 {
+  color: $primary;
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+h2,
+.h2 {
+  color: $primary;
+  font-size: 1.5rem;
+  font-weight: bold;
 }
 
 a {
@@ -19,24 +35,11 @@ a {
   }
 }
 
-h1 {
-  color: $primary;
-  font-size: 2rem;
-  font-weight: bold;
-  margin-bottom: 1rem;
-  text-transform: uppercase;
-}
-
-h2,
-.h2 {
-  color: $primary;
-  font-size: 1.5rem;
-  font-weight: bold;
-}
-
 /* Header: branding & main nav */
 header {
   nav {
+    font-family: $header-font-family;
+
     .navbar-nav {
       .dropdown-menu {
         background: $primary;
@@ -75,9 +78,9 @@ header {
 
       .nav-link {
         color: $primary-dark;
-        font-size: 1.5rem;
+        font-size: 1.3rem;
         font-weight: bold;
-        line-height: 1.4rem;
+        line-height: 1.5rem;
         text-transform: uppercase;
 
         &.active,
