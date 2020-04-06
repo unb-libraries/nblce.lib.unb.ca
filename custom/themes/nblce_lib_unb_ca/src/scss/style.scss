@@ -33,13 +33,16 @@ a {
   color: $primary;
   transition: all .25s ease-in;
 
+  &:focus {
+    box-shadow: none;
+    outline: 1px dashed #d6d6d6;
+    outline-offset: 1px;
+  }
+
   &:focus,
   &:hover {
     background: inherit;
-    box-shadow: none;
     color: $primary-dark;
-    outline: 1px dashed #d6d6d6;
-    outline-offset: 1px;
     text-decoration: underline;
   }
 }
