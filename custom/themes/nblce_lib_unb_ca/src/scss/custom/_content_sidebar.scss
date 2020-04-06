@@ -77,17 +77,10 @@ nav#block-modulescontent {
     }
   }
 }
-@media (max-width: 991px) {
-  #accordian {
-    margin-top: 1rem;
 
-    &:not(.show) {
-      display: none;
-    }
-  }
-}
+/* Force large-width sidebar menu show */
 @media (min-width: 992px) {
-  #accordian:not(.show) {
+  #modules-menu-wrapper:not(.show) {
     display: block;
   }
 }
