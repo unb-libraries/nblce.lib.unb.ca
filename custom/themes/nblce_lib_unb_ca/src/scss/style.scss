@@ -36,7 +36,10 @@ a {
   &:focus,
   &:hover {
     background: inherit;
+    box-shadow: none;
     color: $primary-dark;
+    outline: 1px dashed #d6d6d6;
+    outline-offset: 1px;
     text-decoration: underline;
   }
 }
