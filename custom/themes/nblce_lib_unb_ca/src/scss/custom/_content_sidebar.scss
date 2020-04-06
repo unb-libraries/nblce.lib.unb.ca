@@ -1,29 +1,48 @@
-#block-views-block-modules-content-sidebar,
-#block-modulescontent {
+nav#block-modulescontent {
   border: 3px solid $primary-dark;
-  padding: 1rem .5rem;
+  font-family: $header-font-family;
 
   h2 {
     color: $primary;
     font-size: 1.33rem;
     font-weight: bold;
     margin: 1rem 0;
-    /*text-align: center;*/
     text-transform: uppercase;
+
+    &[data-toggle="collapse"] {
+      cursor: pointer;
+
+      &:after {
+        float: right;
+        font-size: 2rem;
+        line-height: .75;
+      }
+    }
+
+    &[aria-expanded="false"]:after {
+      content: "+";
+    }
+
+    &[aria-expanded="true"]:after {
+      content: "-";
+    }
   }
 
-  ul {
+  ul.nav {
     li {
-      font-size: 1.1rem;
+      font-size: 1rem;
       font-weight: bold;
       line-height: 1.3rem;
       list-style-type: none;
       margin-bottom: .75rem;
-      /*text-align: center;*/
 
       a {
         color: $primary-dark;
-        /*padding: 0.25rem 1rem;*/
+
+        &[aria-expanded="true"]:after {
+          border-top: 0;
+          border-bottom: 0.3em solid;
+        }
 
         &:hover {
           color: $primary;

@@ -61,7 +61,7 @@ set footer_classes = '' ~
 
   {% if page.nav_branding or page.nav_main or page.nav_additional %}  
     <div class="row align-items-end">
-      <div class="navbar-brand col-4 col-sm-6 col-lg-3 text-center">
+      <div class="navbar-brand col-4 col-sm-6 col-lg-3 text-left text-lg-center">
         {{ page.nav_branding }}
       </div>
 
@@ -95,7 +95,7 @@ set footer_classes = '' ~
     {% endif %}
     <div class="row">
       {% if page.sidebar_first %}
-        <div class="order-1 order-lg-1 {{ sidebar_first_classes }}">
+        <div class="order-1 order-lg-1 mb-4 {{ sidebar_first_classes }}">
           {{ page.sidebar_first }}
         </div>
       {% endif %}

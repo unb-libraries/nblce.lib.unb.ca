@@ -4,6 +4,7 @@
     'block-menu',
     'navigation',
     'flex-fill',
+    'px-2',
     'menu--' ~ derivative_plugin_id|clean_class,
 ]
 %}
@@ -14,7 +15,8 @@
         {% set title_attributes = title_attributes.addClass('visually-hidden') %}
     {% endif %}
     {{ title_prefix }}
-    <h2{{ title_attributes.setAttribute('id', heading_id) }} class="h5 my-0 my-lg-3 text-left text-lg-center"
+    <h2{{ title_attributes.setAttribute('id', heading_id) }} class="d-none d-lg-block h5 my-2 my-lg-3 text-lg-center">{{ configuration.label }}</h2>
+    <h2{{ title_attributes.setAttribute('id', heading_id) }} class="d-block d-lg-none h5 my-2 my-lg-3 text-left"
             data-toggle="collapse" data-target="#accordian"
             aria-controls="accordian" aria-expanded="false" aria-label="Toggle sidebar navigation">{{ configuration.label }}</h2>
     {{ title_suffix }}
