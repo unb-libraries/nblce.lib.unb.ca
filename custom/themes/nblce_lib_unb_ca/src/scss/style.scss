@@ -135,8 +135,21 @@ header {
 }
 
 /* Main content */
-.region-content {
-  p + h2 {
-    margin-top: 2rem;
+article {
+  .text-formatted {
+    h2,
+    h3  {
+      margin-top: 2rem;
+    }
+
+    h2 {
+      &:nth-child(1) {
+        margin-top: .5rem;
+      }
+
+      & + h3 {
+        margin-top: 1rem;
+      }
+    }
   }
 }
