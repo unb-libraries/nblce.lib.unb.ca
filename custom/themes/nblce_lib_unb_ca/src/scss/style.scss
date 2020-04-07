@@ -114,7 +114,11 @@ header {
 
   .navbar-brand {
     margin-right: 0;
-    padding: 0;
+    padding-right: 0;
+  }
+
+  .navbar {
+    padding-left: 0;
   }
 
   .region-nav-main {
@@ -124,7 +128,7 @@ header {
   @media screen and (max-width: 767px) {
     nav {
       .navbar-nav .nav-link {
-        font-size: 1.2rem;
+        font-size: 1.1rem;
       }
     }
   }

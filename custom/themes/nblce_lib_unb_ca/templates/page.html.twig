@@ -56,16 +56,16 @@ set footer_classes = '' ~
   (b4_footer_bg_schema != 'none' ? " bg-#{b4_footer_bg_schema}" : ' ')
 %}
 
-<header class="container py-4">
+<header class="container py-2 py-sm-4">
   {{ page.header }}  
 
   {% if page.nav_branding or page.nav_main or page.nav_additional %}  
     <div class="row align-items-end">
-      <div class="navbar-brand col-4 col-sm-6 col-lg-3 text-left text-lg-center">
+      <div class="navbar-brand col-5 col-sm-6 col-lg-3 text-left text-lg-center">
         {{ page.nav_branding }}
       </div>
 
-      <div class="navbar col-8 col-sm-6 col-lg-9 pb-lg-4">
+      <div class="navbar col-7 col-sm-6 col-lg-9 pb-lg-4">
         {{ page.nav_main }}
       </div>
       {{ page.nav_additional }}
