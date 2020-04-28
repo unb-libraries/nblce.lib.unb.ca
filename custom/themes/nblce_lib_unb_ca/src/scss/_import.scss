@@ -4,10 +4,8 @@
 // Include parent theme with all things Bootstrap for full override.
 @import '../../../../../vendor/drupal/bootstrap4/scss/style';
 
-// Include custom sub theme.
+// Include custom sub theme rules.
 @import 'custom/variables';
+@import 'custom/header';
 @import 'custom/content_sidebar';
 
-// Include custom sub theme.
-//@import 'custom/mixins/misc';
-//@import 'custom/misc';
