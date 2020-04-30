@@ -10,7 +10,7 @@ field_name: field_sort_name
 entity_type: node
 bundle: author_page
 label: 'Sort Name'
-description: 'Typically,  author''s name in <tt> Lastname, Firstname</tt> format. Automatically generated on <b>Save</b> if left empty.'
+description: "Typically,  author's name in <tt> Lastname, Firstname</tt> format.<br>\r\nAutomatically derived from the <b>Author Name</b> value upon <b>Save</b> if left empty.<br>\r\n<b>Tip:</b>  Remember to <i class=\"action-link--danger\">clear this field</i> or <i class=\"action-link--danger\">manually update it</i> after editing the <b>Author Name</b> value."
 required: false
 translatable: false
 default_value: {  }
