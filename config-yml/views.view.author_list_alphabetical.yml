@@ -243,7 +243,7 @@ display:
           element_wrapper_type: '0'
           element_wrapper_class: ''
           element_default_classes: false
-          empty: 'Author ''Module'' menu link not set!'
+          empty: '<i class="text-danger">[ed. please provide a menu link for this author''s page]</i>'
           hide_empty: false
           empty_zero: false
           hide_alter_empty: true
@@ -361,7 +361,7 @@ display:
         title: 'Author List: Alphabetical'
         description: ''
         expanded: false
-        parent: 'menu_link_content:c831b449-5a22-4722-9a35-0e91557379f4'
+        parent: 'menu_link_content:dbf231f8-8f5a-4fe4-8b59-2f7fa31b065b'
         weight: -50
         context: '0'
         menu_name: main
