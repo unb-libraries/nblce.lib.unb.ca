@@ -1,0 +1,15 @@
+a.skip-link {
+  padding: .5rem;
+  transition: background-color .25s ease-out;
+
+  &:focus {
+    color: #fff;
+    background-color: #ba6128;
+  }
+
+  &:after {
+    content: '\00BB';
+    display: inline-block;
+    margin-left: .25rem;
+  }
+}
