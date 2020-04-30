@@ -1,0 +1,37 @@
+uuid: 9ee65812-4b4e-4602-85d5-89b4a6a92062
+langcode: en
+status: true
+dependencies: {  }
+id: content_editor
+label: 'Content Editor'
+weight: 2
+is_admin: null
+permissions:
+  - 'access content overview'
+  - 'access toolbar'
+  - 'administer menu'
+  - 'create author_page content'
+  - 'create basic_page content'
+  - 'create module_page content'
+  - 'delete any author_page content'
+  - 'delete any basic_page content'
+  - 'delete any module_page content'
+  - 'delete author_page revisions'
+  - 'delete basic_page revisions'
+  - 'delete module_page revisions'
+  - 'delete own author_page content'
+  - 'delete own basic_page content'
+  - 'delete own module_page content'
+  - 'edit any author_page content'
+  - 'edit any basic_page content'
+  - 'edit any module_page content'
+  - 'edit own author_page content'
+  - 'edit own basic_page content'
+  - 'edit own module_page content'
+  - 'revert author_page revisions'
+  - 'revert basic_page revisions'
+  - 'revert module_page revisions'
+  - 'view author_page revisions'
+  - 'view basic_page revisions'
+  - 'view module_page revisions'
+  - 'view the administration theme'
