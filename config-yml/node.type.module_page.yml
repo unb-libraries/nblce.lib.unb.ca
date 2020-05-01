@@ -14,5 +14,5 @@ type: module_page
 description: 'Use module pages for your literary period or cluster''s <b>Background and Context</b> page.'
 help: ''
 new_revision: true
-preview_mode: 0
+preview_mode: 1
 display_submitted: false
