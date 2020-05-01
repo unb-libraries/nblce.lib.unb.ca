@@ -26,6 +26,7 @@ module:
   linkit: 0
   menu_entity_index: 0
   menu_ui: 0
+  metatag: 0
   nblce_core: 0
   node: 0
   noreqnewpass: 0
