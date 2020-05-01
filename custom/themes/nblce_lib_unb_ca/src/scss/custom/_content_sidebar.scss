@@ -84,3 +84,12 @@ nav#block-modulescontent {
     display: block;
   }
 }
+
+/* Help reduce line break re: toggle icons */
+@media (max-width: 1199px) {
+  #modules-menu-wrapper {
+    .nav-link {
+      font-size: .9rem;
+    }
+  }
+}
