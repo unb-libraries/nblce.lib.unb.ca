@@ -1,0 +1,18 @@
+.alert-status {
+  a {
+    border-bottom: 1px dotted $alert-link;
+    color: $alert-link;
+
+    &:hover {
+      border-bottom-style: solid;
+      text-decoration: none;
+    }
+  }
+
+  button {
+    &.close {
+      background: rgba(128, 128, 128, 0.1);
+      opacity: 0.8;
+    }
+  }
+}
