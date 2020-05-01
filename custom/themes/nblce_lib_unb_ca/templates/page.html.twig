@@ -56,24 +56,25 @@ set footer_classes = 'mt-auto py-4' ~
   (b4_footer_bg_schema != 'none' ? " bg-#{b4_footer_bg_schema}")
 %}
 
-<header class="container py-2 py-sm-4">
+<header class="pt-2 pb-1">
+  <div class="container">
   {{ page.header }}  
 
   {% if page.nav_branding or page.nav_main or page.nav_additional %}  
     <div class="row align-items-end">
-      <div class="navbar-brand col-5 col-sm-6 col-lg-3 text-left text-lg-center">
+      <div class="navbar-brand col-5 col-sm-7 col-lg-3 text-left text-lg-center">
         {{ page.nav_branding }}
       </div>
-
-      <div class="navbar col-7 col-sm-6 col-lg-9 pb-lg-4 pl-lg-3">
+      <div class="navbar col-7 col-sm-5 col-lg-9 pb-lg-4 pl-lg-3">
         {{ page.nav_main }}
       </div>
       {{ page.nav_additional }}
     </div>
   {% endif %}
+  </div>
 </header>
 
-<main role="main">
+<main class="my-4 my-lg-5" role="main">
   <a id="main-content" tabindex="-1"></a>{# link is in html.html.twig #}
 
   {% 
@@ -95,7 +96,7 @@ set footer_classes = 'mt-auto py-4' ~
     {% endif %}
     <div class="row">
       {% if page.sidebar_first %}
-        <div class="order-1 order-lg-1 mb-4 {{ sidebar_first_classes }}">
+        <div class="order-1 order-lg-1 mb-4 mb-lg-0 {{ sidebar_first_classes }}">
           {{ page.sidebar_first }}
         </div>
       {% endif %}
