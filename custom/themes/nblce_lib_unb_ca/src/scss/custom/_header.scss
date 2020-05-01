@@ -47,7 +47,7 @@ header {
         &.active,
         &:focus,
         &:hover {
-          color: $primary;
+          color: $active-link;
         }
       }
 

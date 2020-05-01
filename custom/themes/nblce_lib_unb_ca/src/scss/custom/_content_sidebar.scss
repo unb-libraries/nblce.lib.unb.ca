@@ -1,5 +1,6 @@
 nav#block-modulescontent {
-  border: 3px solid $primary-dark;
+  background-color: $bg-shaded;
+  border: $border-width solid $primary-dark;
   font-family: $header-font-family;
 
   h2 {
@@ -65,7 +66,7 @@ nav#block-modulescontent {
             padding: .25rem;
 
             &.is-active {
-              color: $primary;
+              color: $active-link;
 
               &:hover {
                 cursor: default;
