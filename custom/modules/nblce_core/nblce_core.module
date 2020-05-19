@@ -63,3 +63,14 @@ function nblce_core_node_presave ($node) {
             break;
     }
 }
+
+/**
+ * Implements hook_page_attachments().
+ */
+function nblce_core_page_attachments(array &$attachments) {
+  if (!\Drupal::currentUser()->hasPermission('access toolbar')) {
+    return;
+  }
+
+  $attachments['#attached']['library'][] = 'nblce_core/toolbar-overrides';
+}
