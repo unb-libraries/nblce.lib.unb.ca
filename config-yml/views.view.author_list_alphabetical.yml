@@ -361,7 +361,7 @@ display:
         title: 'Author List: Alphabetical'
         description: ''
         expanded: false
-        parent: 'menu_link_content:dbf231f8-8f5a-4fe4-8b59-2f7fa31b065b'
+        parent: 'menu_link_content:d5e93dea-325b-4e6f-b87b-fe89da30bd3d'
         weight: -50
         context: '0'
         menu_name: main
