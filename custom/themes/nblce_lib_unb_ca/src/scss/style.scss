@@ -80,7 +80,15 @@ footer {
   box-shadow: 0 0 $border-width $primary-dark;
 }
 
-/* Misc */
+/* MISC */
 .bg-dark-alt {
   background-color: $primary-dark;
+}
+
+/* Custom Admin Toolbar Menu */
+.toolbar .custom-menu-icon:before {
+  /* Add custom menu item icon (eg. repurpose site theme favicon asset) */
+  background-image: url(/themes/custom/nblce_lib_unb_ca/src/img/nblce-book-icon.png);
+  background-repeat: no-repeat;
+  background-position: 100% 48%;
 }
