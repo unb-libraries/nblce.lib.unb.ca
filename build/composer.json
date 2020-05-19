@@ -69,6 +69,7 @@
         }
     ],
     "require": {
+        "drupal/admin_toolbar": "2.2",
         "drupal/bootstrap4": "1.0-rc6",
         "drupal/ckeditor_codemirror": "2.3",
         "drupal/config_update": "1.5",
