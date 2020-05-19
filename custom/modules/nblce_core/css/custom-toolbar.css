@@ -1,0 +1,11 @@
+.toolbar .toolbar-tray .menu-item a:focus {
+    background-color: inherit;
+}
+.toolbar .custom-menu-icon:before {
+    background-image: url(/themes/custom/nblce_lib_unb_ca/src/img/nblce-book-icon.png);
+    background-repeat: no-repeat;
+    background-position: 100% 48%;
+}
+.toolbar-tray-vertical .custom-editor-menu {
+    margin-right: .25rem;
+}
