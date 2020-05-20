@@ -1,16 +1,32 @@
-system.admin.nblce:
-  # Add a main 'UNB Libraries' menu link to Administration toolbar
+system.admin.nblce_overview:
   title: NBLCE
-  description: 'Manage NBLCE editor features.'
-  # Route of the menu item link - for toggle items use <front> for now
-  route_name: <front>
-  # The id of the parent menu, found in Drupal core's system.links.menu.yml
+  description: 'NBLCE content overview.'
+  route_name:  system.admin_content
   parent: system.admin
-  # Small weight like -100 places the menu item towards the start/top
   weight: -100
   expanded: true
-  # Add a class to the parent menu link (eg: custom icon application)
   options:
     attributes:
       class:
         - custom-menu-icon
+system.admin.nblce_overview.add_content:
+  title: Add Content
+  description: 'Add content landing page.'
+  route_name:  node.add_page
+  parent: system.admin.nblce_overview
+system.admin.nblce_overview.add_content.author_page:
+  title: Author Page
+  description: 'Add author page content.'
+  route_name:  node.add
+  route_parameters:
+    node_type: 'author_page'
+  parent: system.admin.nblce_overview.add_content
+  weight: 0
+system.admin.nblce_overview.add_content.basic_page:
+  title: Basic Page
+  description: 'Add basic page content.'
+  route_name:  node.add
+  route_parameters:
+    node_type: 'basic_page'
+  parent: system.admin.nblce_overview.add_content
+  weight: 10
