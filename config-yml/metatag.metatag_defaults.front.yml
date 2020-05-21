@@ -7,5 +7,7 @@ _core:
 id: front
 label: 'Front page'
 tags:
+  title: 'New Brunswick Literature Curriculum in English (NBLCE)'
   canonical_url: '[site:url]'
+  description: 'NBLCE is a guided reading tool designed for students, teachers, and citizens who want to know more about New Brunswick literature.'
   shortlink: '[site:url]'
