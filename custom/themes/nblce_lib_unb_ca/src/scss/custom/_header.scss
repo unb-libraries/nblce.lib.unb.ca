@@ -63,8 +63,8 @@ header {
 
   .navbar-brand {
     margin-right: 0;
-    padding-top: 0;
     padding-bottom: 0;
+    padding-top: 0;
 
     img {
       /* Upscale until better source img supplied */
@@ -72,6 +72,11 @@ header {
     }
   }
 
+  @media screen and (max-width: 575px) {
+    .navbar-brand {
+      padding-right: 0;
+    }
+  }
   .navbar {
     padding-left: 0;
   }
