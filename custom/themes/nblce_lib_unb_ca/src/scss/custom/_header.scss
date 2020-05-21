@@ -4,6 +4,12 @@ header {
     font-family: $header-font-family;
 
     .navbar-nav {
+      /* Vertical alignment tweak: logo and nav text) */
+      margin-bottom: .1rem;
+      @media screen and (min-width: 1200px) {
+        margin-bottom: .6rem;
+      }
+
       .dropdown-menu {
         background: $primary;
         padding: 0;
@@ -77,8 +83,11 @@ header {
       padding-right: 0;
     }
   }
+
   .navbar {
+    padding-bottom: 0;
     padding-left: 0;
+    padding-top: 0;
   }
 
   .region-nav-main {
