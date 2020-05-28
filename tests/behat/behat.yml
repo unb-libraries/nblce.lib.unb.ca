@@ -18,8 +18,11 @@ default:
       drupal:
         drupal_root: '/app/html'
       region_map:
-        left sidebar: "#sidebar-first"
-        content: ".region-content"
+        header: ".region-header"
+        main: ".region-main-content"
+        left sidebar: ".sidebar-first-wrapper"
+        page content: ".main-page-content-wrapper"
+        footer: ".region-footer"
       selectors:
         error_message_selector: '.messages--error'
         success_message_selector: '.messages--status'
