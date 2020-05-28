@@ -11,6 +11,10 @@ Feature: Core
     Given I am on the homepage
     Then I should see the "img" element with the "alt" attribute set to "NBLCE" in the "header" region
 
+  Scenario: Test for Navigation menu in header region
+    Given I am on the homepage
+    Then I should see the "nav ul.navbar-nav" element in the "header" region
+
   Scenario: Test for sidebar container in main content region
     Given I am on the homepage
     Then I should see the "div.sidebar-first-wrapper" element in the "main" region
@@ -25,8 +29,8 @@ Feature: Core
 
   Scenario: Login as a user with Content Editor role and create a node for each content type
     Given users:
-      | name      | status |
-      | Test Editor |      1 |
+      | name        | status |
+      | Test Editor | 1      |
     When I am logged in as a user with the "content_editor" role
     And "author_page" content:
       | title             | author      | body             | promote | field_sort_name |
