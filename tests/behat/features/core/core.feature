@@ -27,17 +27,18 @@ Feature: Core
     Given I am on the homepage
     Then I should see the "img" element with the "alt" attribute set to "UNB Libraries" in the "footer" region
 
-  Scenario: Login as a user with Content Editor role and create a node for each content type
+  Scenario: Login as a user with Content Editor role and create allowed content
     Given users:
       | name        | status |
       | Test Editor | 1      |
     When I am logged in as a user with the "content_editor" role
+      And I visit "/node/add"
+      Then I should see the text "Author page"
+      And I should see the text "Basic page"
+      But I should not see the text "Module page"
     And "author_page" content:
       | title             | author      | body             | promote | field_sort_name |
       | Article by Editor | Test Editor | AUTHOR PAGE BODY | 1       | Editor, Test    |
     And "basic_page" content:
       | title             | author      | body             | promote |
       | Page by Editor    | Test Editor | BASIC PAGE BODY  | 1       |
-    And "module_page" content:
-      | title             | author      | body             | promote |
-      | Module by Editor  | Test Editor | MODULE PAGE BODY | 1       |
