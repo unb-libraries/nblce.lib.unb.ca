@@ -33,6 +33,7 @@ module:
   metatag: 0
   nblce_core: 0
   node: 0
+  node_title_help_text: 0
   noreqnewpass: 0
   options: 0
   page_cache: 0
