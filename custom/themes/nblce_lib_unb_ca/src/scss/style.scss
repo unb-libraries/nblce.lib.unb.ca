@@ -74,6 +74,10 @@ header {
   box-shadow: 0 0 $border-width $primary-dark;
 }
 
+blockquote {
+  margin: 1rem 3rem;
+}
+
 footer {
   background-color: $bg-shaded;
   border-top: 1px solid $primary-dark;
