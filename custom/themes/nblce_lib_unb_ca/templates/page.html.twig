@@ -50,13 +50,13 @@ set nav_classes = 'navbar navbar-expand-lg' ~
 %}
 
 {%
-set footer_classes = 'mt-auto py-2' ~
+set footer_classes = 'region-footer mt-auto py-2' ~
   (b4_footer_schema != 'none' ? " navbar-#{b4_footer_schema}") ~
   (b4_footer_schema != 'none' ? (b4_footer_schema == 'dark' ? ' text-light' : ' text-dark' )) ~
   (b4_footer_bg_schema != 'none' ? " bg-#{b4_footer_bg_schema}")
 %}
 
-<header class="py-2">
+<header class="region-header py-2">
   <div class="container">
   {{ page.header }}  
 
@@ -74,7 +74,7 @@ set footer_classes = 'mt-auto py-2' ~
   </div>
 </header>
 
-<main class="my-4 my-lg-5" role="main">
+<main class="region-main-content my-4 my-lg-5" role="main">
   <a id="main-content" tabindex="-1"></a>{# link is in html.html.twig #}
 
   {% 
@@ -96,11 +96,11 @@ set footer_classes = 'mt-auto py-2' ~
     {% endif %}
     <div class="row">
       {% if page.sidebar_first %}
-        <div class="order-1 order-lg-1 mb-4 mb-lg-0 {{ sidebar_first_classes }}">
+        <div class="sidebar-first-wrapper order-1 order-lg-1 mb-4 mb-lg-0 {{ sidebar_first_classes }}">
           {{ page.sidebar_first }}
         </div>
       {% endif %}
-      <div class="order-2 order-lg-2 {{ content_classes }}">
+      <div class="main-page-content-wrapper order-2 order-lg-2 {{ content_classes }}">
         {{ page.content }}
       </div>
       {% if page.sidebar_second %}
