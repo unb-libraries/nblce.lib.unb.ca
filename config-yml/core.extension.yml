@@ -42,6 +42,7 @@ module:
   quickedit: 0
   rdf: 0
   redis: 0
+  samlauth: 0
   search: 0
   system: 0
   taxonomy: 0
