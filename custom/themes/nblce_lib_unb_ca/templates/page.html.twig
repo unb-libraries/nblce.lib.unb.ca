@@ -113,11 +113,12 @@ set footer_classes = 'region-footer mt-auto py-2' ~
 
 </main>
 
-{% if page.footer %}
 <footer class="{{ footer_classes }}">
-  <div class="{{ b4_top_container }}">
-    {{ page.footer }}
-  </div>
+  {% if page.footer %}
+    <div class="{{ b4_top_container }}">
+      {{ page.footer }}
+    </div>
+  {% endif %}
   <div class="container">
     <div class="row align-items-center py-2 text-black" role="contentinfo">
       <div class="col-12 col-md-4 col-lg-3 text-center text-md-left">
@@ -134,4 +135,3 @@ set footer_classes = 'region-footer mt-auto py-2' ~
     </div>
   </div>
 </footer>
-{% endif %}
