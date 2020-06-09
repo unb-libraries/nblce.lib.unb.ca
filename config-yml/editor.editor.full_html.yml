@@ -20,6 +20,7 @@ settings:
             - Bold
             - Italic
             - RemoveFormat
+            - SpecialChar
             - Styles
         -
           name: Lists
@@ -54,7 +55,7 @@ settings:
       linkit_enabled: true
       linkit_profile: default
     stylescombo:
-      styles: "span.ml-3|small tab (inline)\r\nspan.ml-5|medium tab (inline)\r\nspan.indent-lg|large tab (inline)\r\nspan.subtitle|Subtitle"
+      styles: "span.ml-3|Small tab (inline)\r\nspan.ml-5|Medium tab (inline)\r\nspan.indent-lg|Large tab (inline)\r\nspan.subtitle|Subtitle\r\np.biblio|Further reading"
     codemirror:
       enable: true
       startupMode: wysiwyg
