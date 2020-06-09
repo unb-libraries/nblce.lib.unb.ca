@@ -35,6 +35,8 @@ spec:
         vcsRepository: nblce.lib.unb.ca
         vcsRef: dev
     spec:
+      nodeSelector:
+        deployenv: dev
       containers:
         -
           name: nblce-lib-unb-ca
