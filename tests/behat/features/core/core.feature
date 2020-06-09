@@ -29,9 +29,9 @@ Feature: Core
 
   Scenario: Login as a user with Content Editor role and create allowed content
     Given users:
-      | name        | status |
-      | Test Editor | 1      |
-    When I am logged in as a user with the "content_editor" role
+      | name        | roles           | status |
+      | Test Editor | content_editor  | 1      |
+    When I am logged in as "Test Editor"
       And I visit "/node/add"
       Then I should see the text "Author page"
       And I should see the text "Basic page"
