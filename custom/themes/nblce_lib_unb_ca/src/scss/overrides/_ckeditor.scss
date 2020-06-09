@@ -1,0 +1,9 @@
+.cke_panel_listItem {
+  span {
+    &.ml-3,
+    &.ml-5,
+    &.indent-lg {
+      margin-left: 0!important;
+    }
+  }
+}
