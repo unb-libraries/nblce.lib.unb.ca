@@ -20,7 +20,6 @@ settings:
             - Bold
             - Italic
             - RemoveFormat
-            - SpecialChar
             - Styles
         -
           name: Lists
@@ -43,6 +42,7 @@ settings:
           items:
             - Table
             - HorizontalRule
+            - SpecialChar
         -
           name: Tools
           items:
