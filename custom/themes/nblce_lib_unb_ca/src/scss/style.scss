@@ -6,13 +6,14 @@ body {
   font-family: $text-font-family;
   font-size: 1rem;
 }
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6 {
   color: $primary;
   font-family: $header-font-family;
   font-weight: bold;
   margin-bottom: 1rem;
 }
-h1 {
+h1, .h1 {
   font-size: 2rem;
 }
 
