@@ -79,7 +79,7 @@
         "drupal/config_update": "1.5",
         "drupal/core": "8.9.0",
         "drupal/fontawesome": "2.16",
-        "drupal/google_analytics": "2.4",
+        "drupal/google_analytics": "2.5",
         "drupal/health_check": "1.2",
         "drupal/ldap": "3.0-beta7",
         "drupal/linkit": "5.0-beta10",
