@@ -62,7 +62,7 @@ settings:
       linkit_enabled: true
       linkit_profile: default
     stylescombo:
-      styles: "span.ml-3|Small tab\r\nspan.ml-5|Medium tab\r\nspan.indent-lg|Large tab\r\np.biblio|Hanging indent"
+      styles: "span.ml-3|Small tab\r\nspan.ml-5|Medium tab\r\nspan.indent-lg|Large tab\r\nspan.subtitle|Subtitle\r\np.biblio|Hanging indent"
     codemirror:
       enable: true
       startupMode: wysiwyg
