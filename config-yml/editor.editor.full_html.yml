@@ -21,6 +21,7 @@ settings:
           items:
             - Bold
             - Italic
+            - Superscript
         -
           name: Links
           items:
