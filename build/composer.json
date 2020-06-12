@@ -64,7 +64,7 @@
                 "type": "drupal-library",
                 "dist": {
                     "type": "zip",
-                    "url": "https://download.ckeditor.com/fakeobjects/releases/fakeobjects_4.14.0.zip"
+                    "url": "https://github.com/unb-libraries/upstream-library-mirror/blob/master/fakeobjects/fakeobjects_4.14.0.zip"
                 }
             }
         },
@@ -76,7 +76,7 @@
                 "type": "drupal-library",
                 "dist": {
                     "type": "zip",
-                    "url": "https://download.ckeditor.com/link/releases/link_4.14.0.zip"
+                    "url": "https://github.com/unb-libraries/upstream-library-mirror/blob/master/link/link_4.14.0.zip"
                 }
             }
         },
