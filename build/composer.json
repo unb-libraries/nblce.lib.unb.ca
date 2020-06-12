@@ -43,7 +43,7 @@
         },
         "patches": {
             "drupal/samlauth": {
-                "samlauth nocache metadata": "/tmp/drupal_build/patches/samlauth_nocache_metadata.patch"
+                "samlauth nocache metadata": "/build/patches/samlauth_nocache_metadata.patch"
             }
         }
     },
