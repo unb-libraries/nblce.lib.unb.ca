@@ -1,5 +1,6 @@
 module:
   admin_toolbar: 0
+  anchor_link: 0
   block: 0
   block_content: 0
   breakpoint: 0
@@ -15,6 +16,7 @@ module:
   dblog: 0
   dynamic_page_cache: 0
   editor: 0
+  fakeobjects: 0
   field: 0
   field_ui: 0
   file: 0
@@ -24,7 +26,6 @@ module:
   history: 0
   image: 0
   link: 0
-  linkit: 0
   menu_entity_index: 0
   menu_ui: 0
   metatag: 0

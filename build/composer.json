@@ -59,6 +59,30 @@
         {
             "type": "package",
             "package": {
+                "name": "ckeditor/fakeobjects",
+                "version": "4.14.0",
+                "type": "drupal-library",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://download.ckeditor.com/fakeobjects/releases/fakeobjects_4.14.0.zip"
+                }
+            }
+        },
+        {
+            "type": "package",
+            "package": {
+                "name": "ckeditor/link",
+                "version": "4.14.0",
+                "type": "drupal-library",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://download.ckeditor.com/link/releases/link_4.14.0.zip"
+                }
+            }
+        },
+        {
+            "type": "package",
+            "package": {
                 "name": "w8tcha/ckeditor-codemirror-plugin",
                 "version": "1.17.12",
                 "type": "drupal-library",
@@ -73,15 +97,18 @@
         }
     ],
     "require": {
+        "ckeditor/fakeobjects": "~4.14",
+        "ckeditor/link": "~4.14",
         "drupal/admin_toolbar": "2.2",
+        "drupal/anchor_link": "2.4",
         "drupal/bootstrap4": "2.0.1",
         "drupal/ckeditor_codemirror": "2.3",
         "drupal/config_update": "1.5",
         "drupal/core": "8.9.0",
+        "drupal/fakeobjects": "1.0",
         "drupal/google_analytics": "2.5",
         "drupal/health_check": "1.2",
         "drupal/ldap": "3.0-beta7",
-        "drupal/linkit": "5.0-beta10",
         "drupal/metatag": "1.13",
         "drupal/menu_entity_index": "1.1",
         "drupal/node_title_help_text": "1.1",
