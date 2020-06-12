@@ -33,6 +33,8 @@ settings:
           items:
             - BulletedList
             - NumberedList
+            - Outdent
+            - Indent
         -
           name: Alignment
           items:
