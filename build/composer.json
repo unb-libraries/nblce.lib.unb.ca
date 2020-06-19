@@ -99,7 +99,7 @@
     "require": {
         "ckeditor/fakeobjects": "~4.14",
         "ckeditor/link": "~4.14",
-        "drupal/admin_toolbar": "2.2",
+        "drupal/admin_toolbar": "2.3",
         "drupal/anchor_link": "2.4",
         "drupal/bootstrap4": "2.0.1",
         "drupal/ckeditor_codemirror": "2.3",
