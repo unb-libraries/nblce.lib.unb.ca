@@ -125,6 +125,15 @@ function _nblce_core_validate_final(array &$form, FormStateInterface $form_state
         it is temporarily blocked. Please try again later.');
       $changed = TRUE;
     }
+    elseif (strpos($error, 'failed login attempts for this account. It is temporarily blocked') !== false) {
+      $errors['name'] = t('There have been more than 5 failed login attempts for this account and
+        it is temporarily blocked. Please try again later.');
+      $changed = TRUE;
+    }
+    elseif (strpos($error, 'SAML users must sign in') !== false) {
+      $errors['name'] = t('UNB/STU account detected: please use the <em>Secure Services Login</em> as instructed.');
+      $changed = TRUE;
+    }
   }
   if ($changed) {
     // It's clear and reset or set the protected variable by name with
