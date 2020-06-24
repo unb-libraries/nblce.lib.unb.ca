@@ -1,0 +1,23 @@
+uuid: e9469f57-8e72-46f0-a591-766ff28a153c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.media.field_author_page_link
+    - media.type.slideshow_image
+  module:
+    - link
+id: media.slideshow_image.field_author_page_link
+field_name: field_author_page_link
+entity_type: media
+bundle: slideshow_image
+label: 'Author page link'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  link_type: 1
+  title: 0
+field_type: link

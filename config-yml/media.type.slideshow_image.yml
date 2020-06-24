@@ -1,0 +1,13 @@
+uuid: 6058058f-9c89-44be-be30-8fffc14cd3aa
+langcode: en
+status: true
+dependencies: {  }
+id: slideshow_image
+label: 'Slideshow image'
+description: 'Slide image that links to the associated internal author page.'
+source: image
+queue_thumbnail_downloads: false
+new_revision: false
+source_configuration:
+  source_field: field_media_image
+field_map: {  }
