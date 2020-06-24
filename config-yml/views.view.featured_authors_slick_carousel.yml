@@ -96,6 +96,11 @@ display:
           thumbnail_effect: ''
       row:
         type: fields
+        options:
+          default_field_elements: false
+          inline: {  }
+          separator: ''
+          hide_empty: false
       fields:
         field_author_page_link:
           id: field_author_page_link
@@ -254,7 +259,19 @@ display:
           expose:
             operator_limit_selection: false
             operator_list: {  }
-      sorts: {  }
+      sorts:
+        random:
+          id: random
+          table: views
+          field: random
+          relationship: none
+          group_type: group
+          admin_label: ''
+          order: ASC
+          exposed: false
+          expose:
+            label: ''
+          plugin_id: random
       title: 'Featured Authors Slick Carousel'
       header: {  }
       footer: {  }
@@ -263,7 +280,7 @@ display:
       arguments: {  }
       display_extenders: {  }
     cache_metadata:
-      max-age: -1
+      max-age: 0
       contexts:
         - 'languages:language_content'
         - 'languages:language_interface'
@@ -280,7 +297,7 @@ display:
       display_extenders: {  }
       block_description: 'Featured authored slideshow'
     cache_metadata:
-      max-age: -1
+      max-age: 0
       contexts:
         - 'languages:language_content'
         - 'languages:language_interface'
