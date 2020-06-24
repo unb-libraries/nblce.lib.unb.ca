@@ -1,0 +1,22 @@
+uuid: 8653b44e-cf78-44af-9ca3-8d8df02fb6d4
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.author_slideshow
+id: node.author_slideshow.promote
+field_name: promote
+entity_type: node
+bundle: author_slideshow
+label: 'Promoted to front page'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean
