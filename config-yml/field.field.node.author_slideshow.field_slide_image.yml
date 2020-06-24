@@ -10,7 +10,7 @@ id: node.author_slideshow.field_slide_image
 field_name: field_slide_image
 entity_type: node
 bundle: author_slideshow
-label: 'Slide image'
+label: 'Slide images'
 description: ''
 required: true
 translatable: false
