@@ -5,7 +5,6 @@ dependencies:
   config:
     - field.field.media.slideshow_image.field_author_page_link
     - field.field.media.slideshow_image.field_media_image
-    - image.style.large
     - media.type.slideshow_image
   module:
     - image
@@ -31,7 +30,7 @@ content:
     label: visually_hidden
     weight: 0
     settings:
-      image_style: large
+      image_style: ''
       image_link: content
     third_party_settings: {  }
     type: image
