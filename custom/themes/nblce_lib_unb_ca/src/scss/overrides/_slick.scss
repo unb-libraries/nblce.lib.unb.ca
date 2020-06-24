@@ -1,0 +1,52 @@
+.slick {
+  margin-bottom: 1.5rem;
+
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  ul.nav {
+    margin-left: .25rem;
+    margin-top: -2rem;
+    margin-bottom: 2rem;
+
+    li {
+      background: none;
+      border: none;
+      padding: 0;
+      margin: 0 .25rem;
+      z-index: 501;
+
+      &:focus {
+        outline: none;
+      }
+
+      button {
+        padding-right: .6em;
+        padding-left: .6em;
+        border-radius: 10rem;
+        color: $bg-nav-focus;
+        background: $primary;
+        border: 1px solid $primary-dark;
+
+        &:focus {
+          outline: none;
+        }
+      }
+
+      &.slick-active {
+        button {
+          border-color: $bg-nav-focus;
+          cursor: default;
+        }
+      }
+    }
+  }
+
+  @media screen and (max-width: 767px) {
+    ul.nav {
+      display: none!important;
+    }
+  }
+}
