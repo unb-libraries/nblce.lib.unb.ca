@@ -1,6 +1,7 @@
 module:
   admin_toolbar: 0
   anchor_link: 0
+  blazy: 0
   block: 0
   block_content: 0
   breakpoint: 0
@@ -45,6 +46,9 @@ module:
   redis: 0
   samlauth: 0
   search: 0
+  slick: 0
+  slick_ui: 0
+  slick_views: 0
   system: 0
   taxonomy: 0
   text: 0
