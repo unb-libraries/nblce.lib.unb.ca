@@ -18,7 +18,7 @@ options:
     accessibility: true
     adaptiveHeight: false
     autoplay: true
-    autoplaySpeed: 7000
+    autoplaySpeed: 6500
     pauseOnHover: true
     pauseOnDotsHover: false
     pauseOnFocus: true
@@ -31,7 +31,7 @@ options:
     centerMode: false
     centerPadding: 50px
     dots: true
-    dotsClass: 'nav justify-content-left'
+    dotsClass: 'nav justify-content-end'
     appendDots: $(element)
     draggable: true
     fade: true
@@ -48,7 +48,7 @@ options:
     slide: ''
     slidesToShow: 1
     slidesToScroll: 1
-    speed: 500
+    speed: 750
     swipe: true
     swipeToSlide: true
     edgeFriction: 0.35
