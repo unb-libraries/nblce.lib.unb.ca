@@ -1,0 +1,30 @@
+uuid: 37b4d910-fa1e-4879-922a-c4d74572cfd0
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.featured_authors_slick_carousel
+  module:
+    - system
+    - views
+  theme:
+    - nblce_lib_unb_ca
+id: views_block__featured_authors_slick_carousel_block_1
+theme: nblce_lib_unb_ca
+region: content
+weight: -3
+provider: null
+plugin: 'views_block:featured_authors_slick_carousel-block_1'
+settings:
+  id: 'views_block:featured_authors_slick_carousel-block_1'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }
