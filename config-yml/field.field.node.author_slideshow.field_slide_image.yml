@@ -1,0 +1,28 @@
+uuid: 6bf4eee9-95b1-4dac-ae8a-cc71d7b8f92a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_slide_image
+    - media.type.slideshow_image
+    - node.type.author_slideshow
+id: node.author_slideshow.field_slide_image
+field_name: field_slide_image
+entity_type: node
+bundle: author_slideshow
+label: 'Slide image'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:media'
+  handler_settings:
+    target_bundles:
+      slideshow_image: slideshow_image
+    sort:
+      field: _none
+    auto_create: true
+    auto_create_bundle: ''
+field_type: entity_reference

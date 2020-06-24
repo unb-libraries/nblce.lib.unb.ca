@@ -1,0 +1,21 @@
+uuid: 0fac568c-78eb-47e1-b197-9137fa94d64d
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+    - node_title_help_text
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+  node_title_help_text:
+    title_help: ''
+name: 'Author Slideshow'
+type: author_slideshow
+description: 'Used to create the front page <em>featured authors</em> slideshow.'
+help: ''
+new_revision: true
+preview_mode: 0
+display_submitted: true
