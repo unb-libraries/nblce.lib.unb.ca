@@ -43,6 +43,8 @@
   }
 
   @media (pointer: coarse) {
+    margin-bottom: 1rem;
+
     ul.nav {
       display: none!important;
     }
