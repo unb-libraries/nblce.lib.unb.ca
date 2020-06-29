@@ -29,15 +29,15 @@ div[data-drupal-selector="views-exposed-form-search-content-page-1"] {
           border-bottom-right-radius: 0;
 
           &::placeholder {
-            color: $primary-dark;
+            color: $secondary;
             font-size: smaller;
             opacity: 1;
           }
           &:-ms-input-placeholder {
-            color: $primary;
+            color: $secondary;
           }
           &::-ms-input-placeholder {
-            color: $primary;
+            color: $secondary;
           }
         }
 
