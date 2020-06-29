@@ -1,0 +1,23 @@
+uuid: 06327575-f400-430e-87e0-ebbac7ba524f
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.search_content
+  module:
+    - views
+  theme:
+    - nblce_lib_unb_ca
+id: exposedformsearch_contentpage_1
+theme: nblce_lib_unb_ca
+region: sidebar_first
+weight: -4
+provider: null
+plugin: 'views_exposed_filter_block:search_content-page_1'
+settings:
+  id: 'views_exposed_filter_block:search_content-page_1'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+visibility: {  }
