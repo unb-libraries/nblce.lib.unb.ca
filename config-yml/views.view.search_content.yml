@@ -46,7 +46,7 @@ display:
           expose_sort_order: false
           sort_asc_label: Asc
           sort_desc_label: Desc
-          text_input_required: '<p class="text-muted">Enter one or more keywords in the search box and press the <em>Go</em> button.</p>'
+          text_input_required: '<p class="text-muted">Enter one or more keywords in the <em>search field</em> and press the <em>Go</em> button.</p>'
           text_input_required_format: full_html
       pager:
         type: full
@@ -300,7 +300,7 @@ display:
               authenticated: authenticated
               anonymous: '0'
               content_editor: '0'
-            placeholder: 'Search content'
+            placeholder: 'Search content ...'
           is_grouped: false
           group_info:
             label: ''

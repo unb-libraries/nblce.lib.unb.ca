@@ -27,6 +27,18 @@ div[data-drupal-selector="views-exposed-form-search-content-page-1"] {
         input[type="text"] {
           border-top-right-radius: 0;
           border-bottom-right-radius: 0;
+
+          &::placeholder {
+            color: $primary-dark;
+            font-size: smaller;
+            opacity: 1;
+          }
+          &:-ms-input-placeholder {
+            color: $primary;
+          }
+          &::-ms-input-placeholder {
+            color: $primary;
+          }
         }
 
         input[type="submit"] {
