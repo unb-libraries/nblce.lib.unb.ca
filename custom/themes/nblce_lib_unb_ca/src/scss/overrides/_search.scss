@@ -38,6 +38,7 @@ div[data-drupal-selector="views-exposed-form-search-content-page-1"] {
         input[type="text"] {
           border-top-right-radius: 0;
           border-bottom-right-radius: 0;
+          border-color: $secondary;
 
           &::placeholder {
             color: $secondary;
