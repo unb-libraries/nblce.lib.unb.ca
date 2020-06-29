@@ -1,2 +1,6 @@
-// Override bootstrap framework variables.
+// Override bootstrap framework variables / add theme colors / etc.
 // Full list of variables in [path to themes/contrib]/bootstrap4/dist/bootstrap/4.4.1/scss/_variables.scss.
+$primary: #ba6128;
+$primary-dark: #4d371d;
+$secondary: $primary-dark;
+$text-muted: #4f566c;

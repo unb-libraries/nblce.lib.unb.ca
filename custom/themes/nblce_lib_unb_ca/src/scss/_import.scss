@@ -1,3 +1,6 @@
+// @import "../../../../../vendor/drupal/bootstrap4/dist/bootstrap/4.4.1/scss/functions";
+// @import "../../../../../vendor/drupal/bootstrap4/dist/bootstrap/4.4.1/scss/variables";
+
 // Include bootstrap variables definitions overrides.
 @import 'overrides/variables';
 
@@ -11,5 +14,6 @@
 @import 'overrides/alert';
 @import 'overrides/ckeditor';
 @import 'overrides/node_preview';
+@import 'overrides/search';
 @import 'overrides/skip_link';
 @import 'overrides/slick';

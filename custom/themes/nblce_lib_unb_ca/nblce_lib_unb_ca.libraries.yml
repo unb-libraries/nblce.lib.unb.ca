@@ -5,3 +5,7 @@ global-styling:
       '//fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap': {  type: external }
     theme:
       dist/css/style.css: { minified: true }
+  js:
+    dist/js/search.js: {}
+  dependencies:
+    - core/jquery
