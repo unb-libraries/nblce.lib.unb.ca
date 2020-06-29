@@ -362,7 +362,7 @@ display:
         description: ''
         expanded: false
         parent: 'menu_link_content:d5e93dea-325b-4e6f-b87b-fe89da30bd3d'
-        weight: -50
+        weight: -49
         context: '0'
         menu_name: main
     cache_metadata:
