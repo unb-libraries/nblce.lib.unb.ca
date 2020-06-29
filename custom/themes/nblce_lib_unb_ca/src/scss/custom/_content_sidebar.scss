@@ -6,6 +6,7 @@
 nav#block-modulescontent {
   background-color: $bg-shaded;
   border: $border-width solid $primary-dark;
+  border-radius: $border-radius;
   font-family: $header-font-family;
 
   h2 {

@@ -1,4 +1,8 @@
 .slick {
+  & .slick__slider > div {
+    border-radius: $border-radius;
+  }
+
   img {
     max-width: 100%;
     height: auto;
