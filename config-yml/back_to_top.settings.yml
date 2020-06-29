@@ -1,7 +1,7 @@
 back_to_top_prevent_on_mobile: 1
 back_to_top_prevent_in_admin: 0
 back_to_top_prevent_in_front: 0
-back_to_top_button_trigger: '100'
+back_to_top_button_trigger: '200'
 back_to_top_button_place: '1'
 back_to_top_button_text: 'Back to top'
 back_to_top_button_type: image
