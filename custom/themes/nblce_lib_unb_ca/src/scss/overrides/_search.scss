@@ -23,7 +23,18 @@ div[data-drupal-selector="views-exposed-form-search-content-page-1"] {
         &.form-item-query {
           width: 100%;
         }
-
+        label {
+          // Emulate BS4's sr-only class.
+          position: absolute;
+          width: 1px;
+          height: 1px;
+          padding: 0;
+          margin: -1px;
+          overflow: hidden;
+          clip: rect(0, 0, 0, 0);
+          white-space: nowrap;
+          border: 0;
+        }
         input[type="text"] {
           border-top-right-radius: 0;
           border-bottom-right-radius: 0;
