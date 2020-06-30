@@ -44,7 +44,7 @@ a {
   &:focus,
   &:hover {
     background: inherit;
-    color: $primary-dark;
+    color: $secondary;
     text-decoration: underline;
   }
 }
@@ -81,14 +81,14 @@ blockquote {
 
 header {
   background-color: $bg-shaded;
-  border-bottom: 1px solid $primary-dark;
-  box-shadow: 0 0 $border-width $primary-dark;
+  border-bottom: 1px solid $secondary;
+  box-shadow: 0 0 $border-width $secondary;
 }
 
 footer {
   background-color: $bg-shaded;
-  border-top: 1px solid $primary-dark;
-  box-shadow: 0 0 $border-width $primary-dark;
+  border-top: 1px solid $secondary;
+  box-shadow: 0 0 $border-width $secondary;
 }
 
 ol {

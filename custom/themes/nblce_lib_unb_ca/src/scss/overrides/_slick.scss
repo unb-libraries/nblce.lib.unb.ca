@@ -1,5 +1,7 @@
 .slick {
+
   & .slick__slider > div {
+    border: $border-width solid $secondary;
     border-radius: $border-radius;
   }
 
@@ -32,7 +34,7 @@
         border-radius: 50%;
         color: $bg-nav-focus;
         background: $primary;
-        border: 1px solid $primary-dark;
+        border: 1px solid $secondary;
 
         &:focus {
           outline: none;

@@ -32,7 +32,7 @@ header {
 
           &.active {
             background: $bg-nav-active;
-            color: $primary-dark;
+            color: $secondary;
             cursor: default;
           }
         }
@@ -44,7 +44,7 @@ header {
       }
 
       .nav-link {
-        color: $primary-dark;
+        color: $secondary;
         font-size: 1.3rem;
         font-weight: bold;
         line-height: 1.5rem;

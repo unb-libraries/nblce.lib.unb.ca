@@ -5,7 +5,7 @@
 }
 nav#block-modulescontent {
   background-color: $bg-shaded;
-  border: $border-width solid $primary-dark;
+  border: $border-width solid $secondary;
   border-radius: $border-radius;
   font-family: $header-font-family;
 
@@ -44,7 +44,7 @@ nav#block-modulescontent {
       margin-bottom: .75rem;
 
       a {
-        color: $primary-dark;
+        color: $secondary;
 
         &[aria-expanded="true"]:after {
           border-top: 0;
