@@ -30,6 +30,7 @@ div[data-drupal-selector="views-exposed-form-search-content-page-1"] {
           border-top-right-radius: 0;
           border-bottom-right-radius: 0;
           border-color: $secondary;
+          border-width: $border-width;
 
           &::placeholder {
             color: $secondary;
