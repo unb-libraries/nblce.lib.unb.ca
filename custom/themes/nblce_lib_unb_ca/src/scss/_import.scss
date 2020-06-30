@@ -9,6 +9,7 @@
 
 // Include custom sub theme rules.
 @import 'custom/variables';
+@import 'custom/mixins';
 @import 'custom/content_sidebar';
 @import 'custom/header';
 @import 'overrides/alert';
