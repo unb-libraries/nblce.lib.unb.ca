@@ -343,7 +343,7 @@ display:
           group_type: group
           admin_label: ''
           empty: false
-          content: '<h1 class="alert alert-primary h3 mb-3 search-header-result">Found @total search results.</h1>'
+          content: '<h1 class="alert bg-primary text-white h3 mb-3 search-header-result">Found @total search results.</h1>'
           plugin_id: result
       footer: {  }
       empty:
@@ -356,7 +356,7 @@ display:
           admin_label: ''
           empty: true
           tokenize: false
-          content: "<h1 class=\"alert alert-primary h2 search-header-no-result\">No results</h1>\r\n<p>Sorry, we found no results for <span id=\"search-query\">your search</span>. Please modify your query and try again.</p>"
+          content: "<h1 class=\"alert bg-primary text-white h3 search-header-no-result\">No results</h1>\r\n<p>Sorry, we found no results for <span id=\"search-query\">your search</span>. Please modify your query and try again.</p>"
           plugin_id: text_custom
       relationships: {  }
       arguments: {  }
