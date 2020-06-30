@@ -43,6 +43,10 @@ div[data-drupal-selector="views-exposed-form-search-content-page-1"] {
           &::-ms-input-placeholder {
             color: $secondary;
           }
+
+          &.form-control:focus {
+            box-shadow: 0 0 0 0.2rem rgba(104, 85, 63, 0.5);
+          }
         }
 
         input[type="submit"] {
