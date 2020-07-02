@@ -127,7 +127,7 @@ function _nblce_core_validate_final(array &$form, FormStateInterface $form_state
       $changed = TRUE;
     }
     elseif (strpos($error, 'sign in with SSO') !== false) {
-      $errors['name'] = t('UNB/STU patrons: please sign in using <strong>@auth_link</strong>.',
+      $errors['name'] = t('UNB/STU patron detected: please sign in using <strong>@auth_link</strong>.',
         [
           '@auth_link' => Link::fromTextAndUrl(
             t('Secure Services Login'),
@@ -136,6 +136,10 @@ function _nblce_core_validate_final(array &$form, FormStateInterface $form_state
         ]
       );
       $changed = TRUE;
+
+      // SAML warning message redundant in this context.
+      $messenger = \Drupal::messenger();
+      $messenger->deleteByType($messenger::TYPE_WARNING);
     }
   } else {
     // Quick & dirty purge SAML warning message on no authentication error.
