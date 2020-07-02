@@ -31,6 +31,7 @@ function nblce_core_help($route_name, RouteMatchInterface $route_match) {
  * Implements hook_form_FORM_ID_alter().
  */
 function nblce_core_form_user_login_form_alter(&$form, FormStateInterface $form_state) {
+  $form['name']['#description']='Enter your NBLCE username <em>(non-UNB/STU patrons)</em>.';
   if (!\Drupal::currentUser()->isAuthenticated()) {
     $messenger = \Drupal::messenger();
     $messenger->addMessage(
