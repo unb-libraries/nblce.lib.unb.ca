@@ -42,7 +42,8 @@ function nblce_core_form_user_login_form_alter(&$form, FormStateInterface $form_
           )->toString(),
         ]
       ),
-      $messenger::TYPE_WARNING
+      $messenger::TYPE_WARNING,
+      FALSE
     );
     array_push($form['#validate'], '_nblce_core_validate_final');
   }
@@ -124,7 +125,12 @@ function _nblce_core_validate_final(array &$form, FormStateInterface $form_state
         it is temporarily blocked. Please try again later.');
       $changed = TRUE;
     }
+  } else {
+    // Purge SAML warning message on mo authentication error.
+    $messenger = \Drupal::messenger();
+    $messenger->deleteByType($messenger::TYPE_WARNING);
   }
+
   if ($changed) {
     // It's clear and reset or set the protected variable by name with
     // FormState::setFormState().
