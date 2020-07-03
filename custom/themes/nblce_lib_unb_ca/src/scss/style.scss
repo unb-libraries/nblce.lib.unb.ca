@@ -68,8 +68,12 @@ article {
       margin-top: 1rem;
     }
 
+
     li:not(.list-item-compact) {
       margin-bottom: 1rem;
+    }
+    li.list-item-compact li {
+      margin-bottom: 0;
     }
 
   }
@@ -98,6 +102,13 @@ ol {
 
   &.list-lower-roman {
     list-style-type: lower-roman;
+  }
+}
+ul {
+  &.list-no-bullets {
+    li {
+      list-style-type: none;
+    }
   }
 }
 
