@@ -142,7 +142,7 @@ function _nblce_core_validate_final(array &$form, FormStateInterface $form_state
       $messenger->deleteByType($messenger::TYPE_WARNING);
     }
   } else {
-    // Quick & dirty purge SAML warning message on no authentication error.
+    // Quick & dirty purge SAML warning message on authentication error.
     $messenger = \Drupal::messenger();
     $messenger->deleteByType($messenger::TYPE_WARNING);
   }
