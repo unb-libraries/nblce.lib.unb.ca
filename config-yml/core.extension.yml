@@ -30,12 +30,12 @@ module:
   image: 0
   language: 0
   link: 0
+  linkit: 0
   media: 0
   media_library: 0
   menu_entity_index: 0
   menu_ui: 0
   metatag: 0
-  nblce_core: 11
   node: 0
   node_title_help_text: 0
   noreqnewpass: 0
@@ -64,6 +64,7 @@ module:
   pathauto: 1
   externalauth: 10
   views: 10
+  nblce_core: 11
   nblce: 1000
 theme:
   stark: 0
