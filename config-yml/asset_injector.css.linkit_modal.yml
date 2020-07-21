@@ -1,0 +1,37 @@
+uuid: b2fa75ed-4baa-4b56-8b1b-47af0882587e
+langcode: en
+status: true
+dependencies:
+  module:
+    - ctools
+    - system
+    - user
+id: linkit_modal
+label: 'Linkit Modal+Claro Theme Fixes'
+code: ".linkit-ui-autocomplete.ui-widget {overflow-y:scroll;}\n.linkit-ui-autocomplete .linkit-result--description { padding: 0;}"
+conditions_require_all: true
+conditions:
+  'entity_bundle:node':
+    id: 'entity_bundle:node'
+    bundles:
+      author_page: author_page
+      basic_page: basic_page
+      module_page: module_page
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'
+  current_theme:
+    id: current_theme
+    theme:
+      claro: claro
+    negate: false
+  user_role:
+    id: user_role
+    roles:
+      authenticated: authenticated
+    negate: false
+    context_mapping:
+      user: '@user.current_user_context:current_user'
+contexts: {  }
+media: screen
+preprocess: true
