@@ -1,6 +1,7 @@
 module:
   admin_toolbar: 0
   anchor_link: 0
+  asset_injector: 0
   back_to_top: 0
   blazy: 0
   block: 0

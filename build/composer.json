@@ -126,6 +126,7 @@
         "dinbror/blazy": "^1.8.0",
         "drupal/admin_toolbar": "2.3",
         "drupal/anchor_link": "2.4",
+        "drupal/asset_injector": "2.7",
         "drupal/back_to_top": "1.1",
         "drupal/bootstrap4": "2.0.1",
         "drupal/ckeditor_codemirror": "2.3",
