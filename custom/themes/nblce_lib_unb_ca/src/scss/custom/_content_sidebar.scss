@@ -45,6 +45,7 @@ nav#block-modulescontent {
 
       a {
         color: $secondary;
+        text-decoration: none;
 
         &[aria-expanded="true"]:after {
           border-top: 0;
@@ -70,6 +71,13 @@ nav#block-modulescontent {
           a {
             font-size: 1rem;
             padding: .25rem;
+            text-decoration: underline;
+            text-decoration-color: transparent;
+            transition: all .25s ease-in;
+
+            &:hover {
+              text-decoration-color: $primary;
+            }
 
             &.is-active {
               color: $active-link;

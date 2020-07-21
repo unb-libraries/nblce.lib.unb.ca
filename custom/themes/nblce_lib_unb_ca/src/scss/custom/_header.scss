@@ -21,13 +21,16 @@ header {
 
         .dropdown-item {
           color: $white;
+          text-decoration: underline;
+          text-decoration-color: transparent;
+          transition: all .25s ease-in;
 
           &:focus,
           &:hover,
           &:active {
             background: none;
             color: #fcfcfc;
-            text-decoration: underline;
+            text-decoration-color: #fcfcfc;
           }
 
           &.active {
