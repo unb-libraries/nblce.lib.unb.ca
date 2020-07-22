@@ -24,9 +24,10 @@
 main {
   color: #000;
   background: none;
-  width: 100%;
-  margin: 0;
+  display: block;
   float: none;
+  margin: 0;
+  width: 100%;
 
   .col-sm-9 {
     padding: 0!important;
@@ -61,21 +62,9 @@ main {
   }
 }
 
-h1, h2, h3, h4, h5, h6 { color: #000; }
-h2, h3, h4 {
-  margin-top: 2.5rem;
-  page-break-inside: avoid;
-
-  /* Print hack for Chrome/Mozilla: page-break-after:avoid */
-  &::after {
-    content: "";
-    display: block;
-    height: 100px;
-    margin-bottom: -100px;
-  }
-}
-
-p {
+h1, h2, h3, h4, h5, h6 {
+  color: #000;
+  break-after: avoid-page;
   page-break-inside: avoid;
 }
 
