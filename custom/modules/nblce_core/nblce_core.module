@@ -68,7 +68,7 @@ function nblce_core_node_presave ($node) {
             // Set listing title and section field defaults, if applicable.
             if ($node->hasField('field_sort_name')) {
                 $listing_title = trim($node->get('field_sort_name')->getString());
-                $listing_title = (empty($listing_title)) ? $title_field : $listing_title;
+                $listing_title = (empty($listing_title)) ? trim($title_field) : $listing_title;
             }
             else {
                 $listing_title = NULL;
