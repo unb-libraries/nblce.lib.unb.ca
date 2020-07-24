@@ -1,85 +1,139 @@
-/* ---------- General Layout ---------- */
-/** Setting margins */
-@page { margin: 2cm 1cm }
-
-/* Hide admin regions */
-#toolbar,
-.tabs,
-.shortcut-action {
-  display: none;
-}
-
-/* https://getbootstrap.com/docs/4.4/getting-started/browsers-devices/#printing */
-.container {
-  width: auto;
-}
-
-main {
-  color: #000;
-  background: none;
-  display: block;
-  float: none;
-  margin: 0;
-  width: 100%;
-
-  .col-sm-9 {
-    padding: 0!important;
-    max-width: 100%;
-  }
-
-  article {
-    a:not([role="button"]),
-    .view a:not([role="button"]) {
-      border-bottom: none!important;
-      color: #000;
-      text-decoration: none;
-
-      &[href]:after {
-        content: "(" attr(href) ")";
-        font-size: x-small;
-        margin-left: .5em;
-        text-decoration: underline;
-      }
-    }
-
-    div {
-      &.border {
-        border: none!important;
-      }
-    }
-  }
-
-  .text-dark {
-    background: none;
-    color: #000;
-  }
-}
-
-h1, h2, h3, h4, h5, h6 {
-  color: #000;
-  break-after: avoid-page;
-  page-break-inside: avoid;
-}
-
-footer {
-  background: none;
-
+@media print {
+  /* https://getbootstrap.com/docs/4.4/getting-started/browsers-devices/#printing */
   .container {
-    border-color: #000;
+    width: auto;
   }
 
-  div.text-center {
-    a {
-      color: #000;
+  /* Override Bootstrap blockquote */
+  blockquote {
+    border-bottom: none;
+    border-right: none;
+    border-top: none;
+    padding-left: .5rem;
+  }
+
+  /* Hide authenticated admin regions */
+  #toolbar,
+  .tabs,
+  .shortcut-action {
+    display: none;
+  }
+
+  /* Hide back to top button */
+  #backtotop {
+    display: none !important;
+  }
+
+  /* Set content width, unset floats and margins */
+  .region-main-content {
+    float: none !important;
+    margin: 0;
+    padding: 0;
+    width: auto;
+  }
+
+  /* Set page margins */
+  @page {
+    margin: 2cm;
+  }
+
+  /* Set font to 16px, set background to white and font to black */
+  body {
+    background: #fff !important;
+    color: #000;
+    font: 16px Georgia, "Times New Roman", Times, serif;
+    line-height: 1.3;
+  }
+
+  /* Headings */
+  h1, h2, h3, h4, h5, h6 {
+    color: inherit;
+    text-decoration: none;
+  }
+  h1 {
+    font-size: 26px;
+  }
+  h2 {
+    font-size: 20px;
+    margin-top: 26px;
+  }
+  h3, h4 {
+    font-size: 18px;
+    margin-top: 22px;
+  }
+
+  /* Links */
+  a {
+    background: transparent;
+    color: #333;
+
+    &:not(.btn) {
       text-decoration: none;
+    }
+  }
 
-      &:before {
-        content: "UNB Libraries";
-      }
+  a[href] {
+    &:not([href^="#"]) {
+      text-decoration: underline;
 
-      img {
-        display: none;
+      &:after {
+        content: "<" attr(href) ">";
+        font-size: small;
+        margin-left: .25rem;
+        text-decoration: none;
+
+        & > img {
+          content: "";
+        }
       }
     }
+  }
+
+  .biblio {
+    a[href]:after {
+      content: '';
+      margin: 0;
+    }
+  }
+
+  /* Footer Section */
+  footer {
+    background: none;
+
+    .container {
+      border-color: #000;
+    }
+
+    div.text-center {
+      a {
+
+        &:before {
+          content: "UNB Libraries";
+        }
+
+        img {
+          display: none;
+        }
+      }
+    }
+  }
+
+  /* Page break suggestions */
+  a {
+    page-break-inside: avoid
+  }
+  blockquote {
+    page-break-inside: avoid;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    page-break-after: avoid;
+    page-break-inside: avoid;
+  }
+  img {
+    page-break-inside: avoid;
+    page-break-after: avoid;
+  }
+  table {
+    page-break-inside: avoid;
   }
 }
