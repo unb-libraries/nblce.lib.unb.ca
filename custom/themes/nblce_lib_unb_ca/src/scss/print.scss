@@ -9,13 +9,6 @@
   display: none;
 }
 
-/* Hide header + sidebar first + slideshow containers */
-.region-header,
-.region-sidebar-first,
-.view-featured-authors-slick-carousel {
-  display: none;
-}
-
 /* https://getbootstrap.com/docs/4.4/getting-started/browsers-devices/#printing */
 .container {
   width: auto;

@@ -56,7 +56,7 @@ set footer_classes = 'region-footer mt-auto py-2' ~
   (b4_footer_bg_schema != 'none' ? " bg-#{b4_footer_bg_schema}")
 %}
 
-<header class="region-header py-2">
+<header class="d-print-none region-header py-2">
   <div class="container">
   {{ page.header }}  
 
@@ -96,7 +96,7 @@ set footer_classes = 'region-footer mt-auto py-2' ~
     {% endif %}
     <div class="row">
       {% if page.sidebar_first %}
-        <div class="sidebar-first-wrapper order-1 order-lg-1 mb-4 mb-lg-0 {{ sidebar_first_classes }}">
+        <div class="d-print-none sidebar-first-wrapper order-1 order-lg-1 mb-4 mb-lg-0 {{ sidebar_first_classes }}">
           {{ page.sidebar_first }}
         </div>
       {% endif %}
