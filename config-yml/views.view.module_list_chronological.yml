@@ -182,7 +182,7 @@ display:
           empty: true
           tokenize: false
           content:
-            value: '<p>The Modules below (literary  periods or clusters) appear in the <em>New  Brunswick Literature Curriculum in English</em>. To see a full Table of Contents  (Modules attached to authors within those modules), see “Table of Contents”  under <strong>About</strong> on the main page of this  site. To select a Module, click on the module name below or go to the left box  of the main site and click on the appropriate Module.</p>'
+            value: '<p class="alert alert-primary alert-preamble">The Modules below (literary periods or clusters) appear in the <em>New Brunswick Literature Curriculum in English</em>. To see a full Table of Contents (Modules attached to authors within those modules), see “Table of Contents” under <strong>About</strong> above. To select a Module, click on the module name below or go to the vertical box on the left and click on the appropriate Module.</p>'
             format: full_html
           plugin_id: text
       footer: {  }

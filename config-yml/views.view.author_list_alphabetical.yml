@@ -331,7 +331,7 @@ display:
           empty: true
           tokenize: false
           content:
-            value: '<p>The authors below appear  in the <em>New Brunswick Literature  Curriculum in English</em>. Each is hyperlinked to his/her respective Author  Page. The Module within which each appears is indicated in parenthesis after  the name. To select an Author Page, click on the author name below or go to the  left box of the main site and click on the appropriate Module.</p>'
+            value: '<p class="alert alert-primary alert-preamble">The authors below appear in the <em>New Brunswick Literature Curriculum in English</em>. Each is hyperlinked to his/her respective Author Page. The Module within which each appears is indicated in parenthesis after the name. To select an Author Page, click on the author name below or go to the vertical box on the left and click on the appropriate Module.</p>'
             format: full_html
           plugin_id: text
       footer: {  }
