@@ -51,7 +51,7 @@ a {
 main a {
   text-decoration: underline;
   text-decoration-color: $primary;
-  text-decoration-color: rgba(186, 97, 40, .4);
+  text-decoration-color: rgba(186, 97, 40, .33);
   transition: all .25s ease-in;
 
   &:hover {
