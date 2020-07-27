@@ -117,6 +117,12 @@ ul {
   &.list-no-bullets {
     li {
       list-style-type: none;
+
+      ul.list-bulleted {
+        li {
+          list-style-type: circle;
+        }
+      }
     }
   }
 }
