@@ -3,3 +3,15 @@
 .table-bordered th {
   border-color: $secondary;
 }
+.table {
+  margin-bottom: 2.5rem;
+
+  caption {
+    caption-side: top;
+    color: $primary;
+    font-family: $header-font-family;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding-bottom: .25rem;
+  }
+}
