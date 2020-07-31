@@ -1,15 +1,16 @@
-uuid: 1302aad1-8f16-40b4-acf7-a4b9508077b1
+uuid: f70b3158-5f2e-4488-95d3-28022645f628
 langcode: en
 status: true
 dependencies:
   config:
     - field.storage.media.field_author_page_link
     - field.storage.media.field_media_image
-    - media.type.slideshow_image
+    - node.type.author_slideshow
   module:
     - image
     - link
     - media
+    - node
     - slick_views
     - user
 id: featured_authors_slick_carousel
@@ -17,8 +18,8 @@ label: 'Featured Authors Slick Carousel'
 module: views
 description: ''
 tag: ''
-base_table: media_field_data
-base_field: mid
+base_table: node_field_data
+base_field: nid
 display:
   default:
     display_plugin: default
@@ -29,7 +30,7 @@ display:
       access:
         type: perm
         options:
-          perm: 'view media'
+          perm: 'access content'
       cache:
         type: tag
         options: {  }
@@ -64,11 +65,11 @@ display:
           skin: ''
           layout: ''
           caption:
-            name: '0'
+            field_author_page_link: '0'
+            field_media_image: '0'
           optionset_thumbnail: ''
           skin_thumbnail: ''
           thumbnail_position: ''
-          thumbnail_caption: ''
           grid: null
           grid_medium: null
           grid_small: null
@@ -106,7 +107,7 @@ display:
           id: field_author_page_link
           table: media__field_author_page_link
           field: field_author_page_link
-          relationship: none
+          relationship: field_slide_image
           group_type: group
           admin_label: ''
           label: ''
@@ -173,7 +174,7 @@ display:
           id: field_media_image
           table: media__field_media_image
           field: field_media_image
-          relationship: none
+          relationship: field_slide_image
           group_type: group
           admin_label: ''
           label: ''
@@ -236,10 +237,10 @@ display:
       filters:
         status:
           value: '1'
-          table: media_field_data
+          table: node_field_data
           field: status
           plugin_id: boolean
-          entity_type: media
+          entity_type: node
           entity_field: status
           id: status
           expose:
@@ -247,14 +248,14 @@ display:
             operator_limit_selection: false
             operator_list: {  }
           group: 1
-        bundle:
-          id: bundle
-          table: media_field_data
-          field: bundle
+        type:
+          id: type
+          table: node_field_data
+          field: type
           value:
-            slideshow_image: slideshow_image
-          entity_type: media
-          entity_field: bundle
+            author_slideshow: author_slideshow
+          entity_type: node
+          entity_field: type
           plugin_id: bundle
           expose:
             operator_limit_selection: false
@@ -276,7 +277,16 @@ display:
       header: {  }
       footer: {  }
       empty: {  }
-      relationships: {  }
+      relationships:
+        field_slide_image:
+          id: field_slide_image
+          table: node__field_slide_image
+          field: field_slide_image
+          relationship: none
+          group_type: group
+          admin_label: 'field_slide_image: Media'
+          required: false
+          plugin_id: standard
       arguments: {  }
       display_extenders: {  }
       css_class: d-print-none
@@ -285,6 +295,7 @@ display:
       contexts:
         - 'languages:language_content'
         - 'languages:language_interface'
+        - 'user.node_grants:view'
         - user.permissions
       tags:
         - 'config:field.storage.media.field_author_page_link'
@@ -302,6 +313,7 @@ display:
       contexts:
         - 'languages:language_content'
         - 'languages:language_interface'
+        - 'user.node_grants:view'
         - user.permissions
       tags:
         - 'config:field.storage.media.field_author_page_link'

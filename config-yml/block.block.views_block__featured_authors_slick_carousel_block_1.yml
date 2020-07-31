@@ -1,4 +1,4 @@
-uuid: 37b4d910-fa1e-4879-922a-c4d74572cfd0
+uuid: 215fb97c-070c-463a-8321-a39288e8813c
 langcode: en
 status: true
 dependencies:
@@ -12,7 +12,7 @@ dependencies:
 id: views_block__featured_authors_slick_carousel_block_1
 theme: nblce_lib_unb_ca
 region: content
-weight: -3
+weight: -1
 provider: null
 plugin: 'views_block:featured_authors_slick_carousel-block_1'
 settings:
