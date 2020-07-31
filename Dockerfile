@@ -19,7 +19,7 @@ RUN /scripts/addOsPackages.sh && \
 COPY ./package-conf /package-conf
 RUN /scripts/setupStandardConf.sh
 COPY ./build /build
-RUN /scripts/build.sh ${COMPOSER_DEPLOY_DEV} ${DRUPAL_BASE_PROFILE}
+RUN /scripts/build.sh ${DRUPAL_BASE_PROFILE}
 
 # Deploy repository assets.
 COPY ./tests/ ${DRUPAL_TESTING_ROOT}/
