@@ -75,17 +75,6 @@
   a[href] {
     &:not([href^="#"]) {
       text-decoration: underline;
-
-      &:after {
-        content: "<" attr(href) ">";
-        font-size: small;
-        margin-left: .25rem;
-        text-decoration: none;
-
-        & > img {
-          content: "";
-        }
-      }
     }
   }
 
