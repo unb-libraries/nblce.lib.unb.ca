@@ -90,12 +90,37 @@
     color: #000;
   }
 
+  /* Header Section */
+  header {
+    background: none;
+    border: none;
+  }
+  header .row {
+    width: 100%;
+  }
+  header .navbar-brand {
+    flex: none;
+    max-width: none;
+    text-align: center !important;
+  }
+  header .navbar-brand img {
+    width: 200px;
+  }
+
+  /* Main Section */
+  .main-page-content-wrapper {
+    flex: none;
+    max-width: none;
+  }
+
   /* Footer Section */
   footer {
     background: none;
+    border: none;
+    page-break-inside: avoid;
 
-    .container {
-      border-color: #000;
+    .row {
+      border-top: 1px solid #000;
     }
 
     div.text-center {
@@ -114,7 +139,7 @@
 
   /* Page break suggestions */
   a {
-    page-break-inside: avoid
+    page-break-inside: avoid;
   }
   blockquote {
     page-break-inside: avoid;
