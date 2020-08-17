@@ -114,13 +114,14 @@
   }
 
   /* Footer Section */
-  footer {
+  .region-footer {
     background: none;
     border: none;
     page-break-inside: avoid;
 
     .row {
       border-top: 1px solid #000;
+      margin-top: 1cm;
     }
 
     div.text-center {
