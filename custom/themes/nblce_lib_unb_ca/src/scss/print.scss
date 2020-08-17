@@ -117,11 +117,13 @@
   .region-footer {
     background: none;
     border: none;
+    padding-bottom: 0!important;
     page-break-inside: avoid;
 
     .row {
       border-top: 1px solid #000;
       margin-top: 1cm;
+      padding-bottom: 0!important;
     }
 
     div.text-center {
