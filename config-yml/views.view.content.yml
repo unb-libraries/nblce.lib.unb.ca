@@ -824,7 +824,7 @@ display:
           group_type: group
           admin_label: ''
           empty: false
-          content: "<div class=\"color-success\">\r\n  <hr />\r\n  <h2>Displaying @start - @end of @total</h2>\r\n  <hr />\r\n</div>\r\n"
+          content: "<div class=\"color-success\">\r\n  <hr />\r\n  <h2 class=\"heading-f\">Displaying @start - @end of @total</h2>\r\n  <hr />\r\n</div>\r\n"
           plugin_id: result
     display_plugin: page
     display_title: 'Page Override'
