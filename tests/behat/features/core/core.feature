@@ -19,9 +19,10 @@ Feature: Core
     Given I am on the homepage
     Then I should see the "div.sidebar-first-wrapper" element in the "main" region
 
-  Scenario: Test for level one heading in page content region
+  Scenario: Test for level one heading + a paragraph in page content region
     Given I am on the homepage
     Then I should see the "h1" element in the "page content" region
+    And I should see the "p" element in the "page content" region
 
   Scenario: Test for UNB Libraries logo in footer region
     Given I am on the homepage
