@@ -82,3 +82,10 @@ div[data-drupal-selector="views-exposed-form-search-content-page-1"] {
 .search-header-no-result {
   background-image: url(../img/search-none-white.png);
 }
+.pager {
+  .btn-primary {
+    &:focus {
+      text-decoration: none;
+    }
+  }
+}
