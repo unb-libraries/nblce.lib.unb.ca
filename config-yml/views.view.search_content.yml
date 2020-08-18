@@ -49,17 +49,15 @@ display:
           text_input_required: '<p class="text-muted">Enter one or more keywords in the <em>search field</em> and press the <em>Go</em> button.</p>'
           text_input_required_format: full_html
       pager:
-        type: full
+        type: mini
         options:
           items_per_page: 25
           offset: 0
           id: 0
           total_pages: null
           tags:
-            previous: ‹‹
-            next: ››
-            first: '« First'
-            last: 'Last »'
+            previous: '‹‹ Previous'
+            next: 'Next ››'
           expose:
             items_per_page: false
             items_per_page_label: 'Items per page'
@@ -68,7 +66,6 @@ display:
             items_per_page_options_all_label: '- All -'
             offset: false
             offset_label: Offset
-          quantity: 9
       style:
         type: default
       row:
