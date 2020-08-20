@@ -1,7 +1,6 @@
-FROM unblibraries/drupal:dockworker-2.x
+FROM unblibraries/drupal:8.x-2.x-slim-unblib
 MAINTAINER UNB Libraries <libsupport@unb.ca>
 
-ARG COMPOSER_DEPLOY_DEV=no-dev
 ENV DRUPAL_SITE_ID nblce
 ENV DRUPAL_SITE_URI nblce.lib.unb.ca
 ENV DRUPAL_SITE_UUID 842a4c70-3da8-41a9-8948-9dbec80be2bd
@@ -22,7 +21,6 @@ COPY ./build /build
 RUN /scripts/build.sh ${DRUPAL_BASE_PROFILE}
 
 # Deploy repository assets.
-COPY ./tests/ ${DRUPAL_TESTING_ROOT}/
 COPY ./config-yml ${DRUPAL_CONFIGURATION_DIR}
 COPY ./custom/themes ${DRUPAL_ROOT}/themes/custom
 COPY ./custom/modules ${DRUPAL_ROOT}/modules/custom
