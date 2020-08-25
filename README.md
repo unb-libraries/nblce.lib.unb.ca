@@ -1,4 +1,4 @@
-![nblce.lib.unb.ca screenshot](https://github.com/unb-libraries/nblce.lib.unb.ca/raw/prod/screenshot.png "nblce.lib.unb.ca screenshot")
+![nblce.lib.unb.ca screenshot](https://github.com/unb-libraries/nblce.lib.unb.ca/raw/prod/.dockworker/screenshot.png "nblce.lib.unb.ca screenshot")
 # [nblce.lib.unb.ca](https://nblce.lib.unb.ca/) : Instance Repository
 [![Build Status](https://travis-ci.com/unb-libraries/nblce.lib.unb.ca.svg?branch=prod)](https://travis-ci.com/unb-libraries/nblce.lib.unb.ca) [![GitHub license](https://img.shields.io/github/license/unb-libraries/nblce.lib.unb.ca)](https://github.com/unb-libraries/nblce.lib.unb.ca/blob/dev/LICENSE) ![GitHub repo size](https://img.shields.io/github/repo-size/unb-libraries/nblce.lib.unb.ca)
 
