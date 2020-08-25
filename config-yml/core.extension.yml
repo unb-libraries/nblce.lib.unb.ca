@@ -66,7 +66,7 @@ module:
   externalauth: 10
   views: 10
   nblce_core: 11
-  nblce: 1000
+  minimal: 1000
 theme:
   stark: 0
   stable: 0
@@ -74,6 +74,6 @@ theme:
   bootstrap4: 0
   nblce_lib_unb_ca: 0
   claro: 0
-profile: nblce
+profile: minimal
 _core:
   default_config_hash: R4IF-ClDHXxblLcG0L7MgsLvfBIMAvi_skumNFQwkDc
