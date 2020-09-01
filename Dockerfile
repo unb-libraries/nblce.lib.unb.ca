@@ -1,6 +1,7 @@
 FROM unblibraries/drupal:8.x-3.x-unblib
 MAINTAINER UNB Libraries <libsupport@unb.ca>
 
+# Install additional OS packages.
 ENV ADDITIONAL_OS_PACKAGES rsyslog postfix php7-ldap php7-xmlreader php7-zip php7-redis
 ENV DRUPAL_SITE_ID nblce
 ENV DRUPAL_SITE_URI nblce.lib.unb.ca
@@ -20,7 +21,7 @@ COPY ./config-yml ${DRUPAL_CONFIGURATION_DIR}
 COPY ./custom/themes ${DRUPAL_ROOT}/themes/custom
 COPY ./custom/modules ${DRUPAL_ROOT}/modules/custom
 
-# Metadata
+# Container metadata.
 ARG BUILD_DATE
 ARG VCS_REF
 ARG VERSION
