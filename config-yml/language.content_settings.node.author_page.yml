@@ -1,0 +1,11 @@
+uuid: 443f2589-1ef6-4693-8caf-2b6130f7c3d3
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.author_page
+id: node.author_page
+target_entity_type_id: node
+target_bundle: author_page
+default_langcode: site_default
+language_alterable: false
