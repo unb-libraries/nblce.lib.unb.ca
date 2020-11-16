@@ -153,6 +153,7 @@
         "drupal/twig_tweak": "2.8",
         "kenwheeler/slick": "^1.8.0",
         "unb-libraries/drupal-builder": "^8.0.0",
+        "unb-libraries/saml_features": "dev-8.x-1.x",
         "w8tcha/ckeditor-codemirror-plugin": "^1.17.12"
     },
     "require-dev": {
