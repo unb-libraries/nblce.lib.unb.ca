@@ -37,6 +37,7 @@ module:
   menu_entity_index: 0
   menu_ui: 0
   metatag: 0
+  nblce_core: 0
   node: 0
   node_title_help_text: 0
   noreqnewpass: 0
@@ -47,7 +48,6 @@ module:
   quickedit: 0
   rdf: 0
   redis: 0
-  saml_features: 0
   samlauth: 0
   search_api: 0
   search_api_solr: 0
@@ -67,7 +67,7 @@ module:
   pathauto: 1
   externalauth: 10
   views: 10
-  nblce_core: 11
+  saml_features: 11
   minimal: 1000
 theme:
   stark: 0
