@@ -1,0 +1,35 @@
+.navbar-brand img {
+  height: auto;
+}
+@media (min-width: 992px) {
+  .navbar-brand img {
+    height: auto;
+  }
+}
+.navbar-nav {
+  @media (max-width: 767px) {
+    .dropdown-toggle {
+      &::after {
+        margin-top: .33rem;
+      }
+    }
+  }
+  @media (min-width: 768px) and (max-width: 991px) {
+    .dropdown-toggle {
+      &::after {
+        margin-top: .25rem;
+      }
+    }
+  }
+}
+
+@media (min-width:992px) and (max-width: 1200px) {
+  nav#block-modulescontent h2 {
+    font-size: 1.25rem;
+  }
+}
+@media (min-width:1200px) {
+  nav#block-modulescontent ul.nav li a {
+    font-size: .96rem;
+  }
+}
