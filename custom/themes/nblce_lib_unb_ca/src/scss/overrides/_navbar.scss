@@ -10,14 +10,14 @@
   @media (max-width: 767px) {
     .dropdown-toggle {
       &::after {
-        margin-top: .33rem;
+        margin-top: .5rem;
       }
     }
   }
   @media (min-width: 768px) and (max-width: 991px) {
     .dropdown-toggle {
       &::after {
-        margin-top: .25rem;
+        margin-top: .33rem;
       }
     }
   }
