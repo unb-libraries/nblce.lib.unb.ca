@@ -32,7 +32,7 @@ h6, .h6 {
 }
 
 a {
-  color: $primary;
+  color: $active-link;
   transition: all .25s ease-in;
 
   &:focus {
@@ -50,7 +50,7 @@ a {
 }
 main a {
   text-decoration: underline;
-  text-decoration-color: $primary;
+  text-decoration-color: $active-link;
   text-decoration-color: rgba(186, 97, 40, .33);
   transition: all .25s ease-in;
 
