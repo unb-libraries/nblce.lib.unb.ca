@@ -38,12 +38,12 @@ nav#block-modulescontent {
   ul.nav {
     li {
       font-size: 1rem;
-      font-weight: bold;
       line-height: 1.3rem;
       list-style-type: none;
       margin-bottom: .75rem;
 
-      a {
+      a,
+      button {
         color: $secondary;
         text-decoration: none;
 
@@ -58,7 +58,14 @@ nav#block-modulescontent {
 
         &.dropdown-toggle {
           text-transform: uppercase;
-          white-space: normal;
+        }
+      }
+      button {
+        font-weight: bold;
+      }
+      @media (max-width: 991px) {
+        button {
+          text-align: left;
         }
       }
       ul {
