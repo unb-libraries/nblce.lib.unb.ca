@@ -62,6 +62,10 @@ nav#block-modulescontent {
       }
       button {
         font-weight: bold;
+
+        &[aria-expanded="true"] {
+            box-shadow: 0 0 0 0.2rem rgba(186, 97, 40, 0.25);
+        }
       }
       @media (max-width: 991px) {
         button {

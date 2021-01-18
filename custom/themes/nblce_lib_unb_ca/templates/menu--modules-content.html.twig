@@ -39,7 +39,7 @@
           {% set show_sub_menu = true %}
         {% endif %}
       {% endfor %}
-      <ul class="collapse" id="item{{ menu_item }}" data-parent="#modules-menu-wrapper">
+      <ul class="collapse{{ show_sub_menu ? ' show' }}" id="item{{ menu_item }}" data-parent="#modules-menu-wrapper">
     {% endif %}
     {% for item in items %}
       {%
@@ -53,10 +53,19 @@
           item.is_collapsed ? 'dropdown-toggle',
           item.in_active_trail ? 'active',
         ]
-        %}
+      %}
+      {%
+        set classes_button = [
+          'btn',
+          'btn-block',
+          'dropdown-toggle',
+          'p-0',
+          'text-wrap',
+        ]
+      %}
       <li{{ item.attributes.addClass('nav-item') }}>
         {% if item.is_expanded %}
-          <button class="btn btn-block dropdown-toggle p-0 text-wrap" data-target="#item{{menu_item }}"
+          <button {{ item.attributes.addClass(classes_button) }}" data-target="#item{{menu_item }}"
           data-toggle="collapse" aria-expanded="{{ item.in_active_trail ? 'true' : 'false' }}">{{ item.title }}</button>
         {% else %}
           {{ link(item.title, item.url, { 'class': classes_link }) }}
