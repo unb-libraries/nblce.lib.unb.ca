@@ -29,9 +29,9 @@
 {% macro menu_links(items, attributes, menu_level, menu_item) %}
   {% import _self as menus %}
   {% if items %}
-  <div class="collapse" id="modules-menu-wrapper" data-parent="#block-modulescontent">
     {% if menu_level == 0 %}
-      <ul class="nav navbar-nav px-2 pt-2" id="modules-menu">
+      <div class="collapse" id="modules-menu-wrapper{{ menu_level != 0 ? item : '' }}" data-parent="#block-modulescontent">
+        <ul class="nav navbar-nav px-2 pt-2" id="modules-menu">
     {% else %}
       {% set show_sub_menu = false %}
       {% for item in items %}
@@ -39,7 +39,7 @@
           {% set show_sub_menu = true %}
         {% endif %}
       {% endfor %}
-      <ul id="item{{ menu_item }}" class="collapse{{ show_sub_menu ? ' show' }}" data-parent="#modules-menu">
+      <ul class="collapse" id="item{{ menu_item }}" data-parent="#modules-menu-wrapper">
     {% endif %}
     {% for item in items %}
       {%
@@ -73,7 +73,11 @@
       </li>
       {% set menu_item = menu_item + 1 %}
     {% endfor %}
-    </ul>
+    {% if menu_level == 0 %}
+        </ul>
+      </div>
+    {% else %}
+      </ul>
+    {% endif %}
   {% endif %}
-  </div>
 {% endmacro %}
