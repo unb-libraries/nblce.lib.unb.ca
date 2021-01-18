@@ -47,9 +47,19 @@
             item.in_active_trail ? 'active',
           ]
         %}
+      {%
+          set classes_button = [
+          'btn',
+          'nav-item',
+          'nav-link',
+          item.is_expanded ? 'dropdown-toggle',
+          item.is_collapsed ? 'dropdown-toggle',
+          item.in_active_trail ? 'active',
+      ]
+      %}
         <li{{ item.attributes.addClass(classes_list_item) }}>
           {% if item.below %}
-            {{ link(item.title, item.url, { 'class': classes_link, 'data-toggle' : 'dropdown' }) }}
+              <button {{ item.attributes.addClass(classes_button) }}" data-toggle="dropdown">{{ item.title }}</button>
             {{ menus.menu_links(item.below, attributes, menu_level + 1) }}
           {% else %}
             {{ link(item.title, item.url, { 'class': classes_link }) }}
