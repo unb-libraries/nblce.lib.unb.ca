@@ -43,14 +43,14 @@
  */
 #}
 {%
-set nav_classes = 'navbar navbar-expand-lg' ~ 
+  set nav_classes = 'navbar navbar-expand-lg' ~
   (b4_navbar_schema != 'none' ? " navbar-#{b4_navbar_schema}" : ' ') ~
   (b4_navbar_schema != 'none' ? (b4_navbar_schema == 'dark' ? ' text-light' : ' text-dark' ) : ' ') ~
   (b4_navbar_bg_schema != 'none' ? " bg-#{b4_navbar_bg_schema}" : ' ')
 %}
 
 {%
-set footer_classes = 'region-footer mt-auto py-2' ~
+  set footer_classes = 'region-footer mt-auto py-2' ~
   (b4_footer_schema != 'none' ? " navbar-#{b4_footer_schema}") ~
   (b4_footer_schema != 'none' ? (b4_footer_schema == 'dark' ? ' text-light' : ' text-dark' )) ~
   (b4_footer_bg_schema != 'none' ? " bg-#{b4_footer_bg_schema}")
@@ -74,21 +74,12 @@ set footer_classes = 'region-footer mt-auto py-2' ~
   </div>
 </header>
 
-<main class="region-main-content my-4 my-lg-5" role="main">
+<main class="region-main-content my-4 my-lg-5">
   <a id="main-content" tabindex="-1"></a>{# link is in html.html.twig #}
-
-  {% 
-  set sidebar_first_classes = (page.sidebar_first and page.sidebar_second) ? 'col-12 col-sm-6 col-lg-3' : 'col-12 col-lg-3'
-  %}
-  
-  {% 
-  set sidebar_second_classes = (page.sidebar_first and page.sidebar_second) ? 'col-12 col-sm-6 col-lg-3' : 'col-12 col-lg-3'
-  %}
-  
-  {% 
-  set content_classes = (page.sidebar_first and page.sidebar_second) ? 'col-12 col-lg-6' : ((page.sidebar_first or page.sidebar_second) ? 'col-12 col-lg-9' : 'col-12' )
-   %}
-
+  {% set sidebar_first_classes = (page.sidebar_first and page.sidebar_second) ? 'col-12 col-sm-6 col-lg-3' : 'col-12 col-lg-3' %}
+  {% set sidebar_second_classes = (page.sidebar_first and page.sidebar_second) ? 'col-12 col-sm-6 col-lg-3' : 'col-12 col-lg-3' %}
+  {% set content_classes = (page.sidebar_first and page.sidebar_second) ?
+     'col-12 col-lg-6' : ((page.sidebar_first or page.sidebar_second) ? 'col-12 col-lg-9' : 'col-12' ) %}
 
   <div class="{{ b4_top_container }}">
     {% if page.breadcrumb %}
