@@ -59,7 +59,7 @@
       %}
         <li{{ item.attributes.addClass(classes_list_item) }}>
           {% if item.below %}
-              <button {{ item.attributes.addClass(classes_button) }}" data-toggle="dropdown">{{ item.title }}</button>
+              <button {{ item.attributes.addClass(classes_button) }} data-toggle="dropdown">{{ item.title }}</button>
             {{ menus.menu_links(item.below, attributes, menu_level + 1) }}
           {% else %}
             {{ link(item.title, item.url, { 'class': classes_link }) }}
