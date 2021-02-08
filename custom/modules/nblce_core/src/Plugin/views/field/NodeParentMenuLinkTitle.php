@@ -15,6 +15,8 @@ use Drupal\views\ResultRow;
 class NodeParentMenuLinkTitle extends FieldPluginBase {
 
   /**
+   * Leave empty.
+   *
    * @{inheritdoc}
    */
   public function query() {
@@ -22,6 +24,8 @@ class NodeParentMenuLinkTitle extends FieldPluginBase {
   }
 
   /**
+   * Provides Parent Menu Link Title as a field in Views UI.
+   *
    * @{inheritdoc}
    */
   public function render(ResultRow $values) {
