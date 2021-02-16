@@ -72,11 +72,11 @@
             "type": "package",
             "package": {
                 "name": "ckeditor/fakeobjects",
-                "version": "4.14.0",
+                "version": "4.16.0",
                 "type": "drupal-library",
                 "dist": {
                     "type": "zip",
-                    "url": "https://github.com/unb-libraries/upstream-library-mirror/raw/master/fakeobjects/fakeobjects_4.14.0.zip"
+                    "url": "https://github.com/unb-libraries/upstream-library-mirror/raw/master/fakeobjects/fakeobjects_4.16.0.zip"
                 }
             }
         },
@@ -84,11 +84,11 @@
             "type": "package",
             "package": {
                 "name": "ckeditor/link",
-                "version": "4.14.0",
+                "version": "4.16.0",
                 "type": "drupal-library",
                 "dist": {
                     "type": "zip",
-                    "url": "https://github.com/unb-libraries/upstream-library-mirror/raw/master/link/link_4.14.0.zip"
+                    "url": "https://github.com/unb-libraries/upstream-library-mirror/raw/master/link/link_4.16.0.zip"
                 }
             }
         },
@@ -121,8 +121,8 @@
         }
     ],
     "require": {
-        "ckeditor/fakeobjects": "~4.14",
-        "ckeditor/link": "~4.14",
+        "ckeditor/fakeobjects": "~4.16",
+        "ckeditor/link": "~4.16",
         "dinbror/blazy": "^1.8.0",
         "drupal/admin_toolbar": "3.0.0",
         "drupal/anchor_link": "2.5",
