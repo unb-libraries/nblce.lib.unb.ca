@@ -125,7 +125,7 @@
         "ckeditor/link": "~4.14",
         "dinbror/blazy": "^1.8.0",
         "drupal/admin_toolbar": "3.0.0",
-        "drupal/anchor_link": "2.4",
+        "drupal/anchor_link": "2.5",
         "drupal/asset_injector": "2.7",
         "drupal/back_to_top": "1.1",
         "drupal/bootstrap4": "2.1.5",
