@@ -8,7 +8,9 @@ dependencies:
     - user
 id: linkit_modal
 label: 'Linkit Modal+Claro Theme Fixes'
-code: ".linkit-ui-autocomplete.ui-widget {overflow-y:scroll;}\n.linkit-ui-autocomplete .linkit-result--description { padding: 0;}"
+code: |-
+  .linkit-ui-autocomplete.ui-widget {overflow-y:scroll;}
+  .linkit-ui-autocomplete .linkit-result--description { padding: 0;}
 conditions_require_all: true
 conditions:
   'entity_bundle:node':

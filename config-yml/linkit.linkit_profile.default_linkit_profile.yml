@@ -7,7 +7,6 @@ dependencies:
 id: default_linkit_profile
 label: 'Default Linkit Profile'
 description: 'Standard profile for NBLCE that includes Module and Author pages.'
-attributes: {  }
 matchers:
   cfed0e85-383a-4ef6-86c2-5f40dcfe6179:
     uuid: cfed0e85-383a-4ef6-86c2-5f40dcfe6179
@@ -20,3 +19,6 @@ matchers:
         module_page: module_page
       group_by_bundle: true
       include_unpublished: false
+      metadata: ''
+      substitution_type: canonical
+      limit: 100
