@@ -149,8 +149,11 @@ p.biblio {
   text-indent: -1.5em;
   padding-left: 1.5em;
 }
-
 li.list-item-compact li,
 .text-smaller {
   font-size: 90%;
+}
+
+#scrollUp {
+  opacity: .7;
 }
