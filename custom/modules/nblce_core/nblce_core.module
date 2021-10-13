@@ -74,4 +74,5 @@ function nblce_core_page_attachments(array &$attachments) {
   }
 
   $attachments['#attached']['library'][] = 'nblce_core/toolbar-overrides';
+  $attachments['#attached']['library'][] = 'nblce_core/claro-overrides';
 }

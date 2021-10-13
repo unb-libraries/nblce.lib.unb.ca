@@ -3,3 +3,8 @@ toolbar-overrides:
   css:
     theme:
       css/custom-toolbar.css: {}
+claro-overrides:
+  version: VERSION
+  css:
+    theme:
+      css/claro-admin-overrides.css: {}
