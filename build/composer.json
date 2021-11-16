@@ -158,7 +158,7 @@
         "drupal/redis": "1.5",
         "drupal/samlauth": "3.3",
         "drupal/search_api": "1.21",
-        "drupal/search_api_solr": "4.2.1",
+        "drupal/search_api_solr": "4.2.2",
         "drupal/simple_sitemap": "3.10",
         "drupal/slick": "2.4",
         "drupal/slick_views": "2.5",
