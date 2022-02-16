@@ -4,8 +4,8 @@ status: true
 dependencies: {  }
 id: nblce
 name: nblce
-label: NBLCE
 weight: 0
+label: NBLCE
 group: ''
 skin: ''
 breakpoints: 0
@@ -18,10 +18,10 @@ options:
     accessibility: true
     adaptiveHeight: false
     autoplay: true
-    autoplaySpeed: 6500
     pauseOnHover: true
     pauseOnDotsHover: false
     pauseOnFocus: true
+    autoplaySpeed: 6500
     arrows: false
     prevArrow: Previous
     nextArrow: Next

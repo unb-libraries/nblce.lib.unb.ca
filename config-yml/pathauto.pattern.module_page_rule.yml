@@ -11,12 +11,12 @@ pattern: 'resources/modules/[node:title]'
 selection_criteria:
   e185d09a-f5a7-4a75-ab5b-9fc5ab5d50ec:
     id: node_type
-    bundles:
-      module_page: module_page
     negate: false
+    uuid: e185d09a-f5a7-4a75-ab5b-9fc5ab5d50ec
     context_mapping:
       node: node
-    uuid: e185d09a-f5a7-4a75-ab5b-9fc5ab5d50ec
+    bundles:
+      module_page: module_page
 selection_logic: and
 weight: -5
 relationships: {  }

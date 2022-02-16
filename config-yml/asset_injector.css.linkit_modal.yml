@@ -11,17 +11,18 @@ label: 'Linkit Modal+Claro Theme Fixes'
 code: |-
   .linkit-ui-autocomplete.ui-widget {overflow-y:scroll;}
   .linkit-ui-autocomplete .linkit-result--description { padding: 0;}
-conditions_require_all: true
+media: screen
+preprocess: true
 conditions:
   'entity_bundle:node':
     id: 'entity_bundle:node'
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'
     bundles:
       author_page: author_page
       basic_page: basic_page
       module_page: module_page
-    negate: false
-    context_mapping:
-      node: '@node.node_route_context:node'
   current_theme:
     id: current_theme
     theme:
@@ -29,11 +30,10 @@ conditions:
     negate: false
   user_role:
     id: user_role
-    roles:
-      authenticated: authenticated
     negate: false
     context_mapping:
       user: '@user.current_user_context:current_user'
+    roles:
+      authenticated: authenticated
 contexts: {  }
-media: screen
-preprocess: true
+conditions_require_all: true
