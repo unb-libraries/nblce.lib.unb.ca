@@ -144,7 +144,7 @@
         "drupal/asset_injector": "2.9",
         "drupal/bootstrap4": "2.1.14",
         "drupal/ckeditor_codemirror": "2.3",
-        "drupal/core": "9.3.5",
+        "drupal/core": "9.3.6",
         "drupal/fakeobjects": "1.1",
         "drupal/google_analytics": "2.5",
         "drupal/health_check": "1.3",
