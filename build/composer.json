@@ -1,199 +1,199 @@
 {
-  "authors": [
-    {
-      "name": "UNB Libraries libsupport@unb.ca",
-      "role": "Creator"
-    }
-  ],
-  "autoload": {
-    "classmap": [
-      "scripts/composer/ScriptHandler.php"
-    ]
-  },
-  "config": {
-    "allow-plugins": {
-      "composer/installers": true,
-      "cweagans/composer-patches": true,
-      "drupal/core-composer-scaffold": true
-    },
-    "discard-changes": true,
-    "preferred-install": {
-      "*": "dist"
-    },
-    "sort-packages": true
-  },
-  "conflict": {
-    "drupal/drupal": "*"
-  },
-  "description": "Drupal 8 component of nblce.lib.unb.ca",
-  "extra": {
-    "enable-patching": true,
-    "installer-paths": {
-      "core": [
-        "type:drupal-core"
-      ],
-      "drush/contrib/{$name}": [
-        "type:drupal-drush"
-      ],
-      "libraries/{$name}": [
-        "type:drupal-library"
-      ],
-      "modules/contrib/{$name}": [
-        "type:drupal-module"
-      ],
-      "profiles/contrib/{$name}": [
-        "type:drupal-profile"
-      ],
-      "themes/contrib/{$name}": [
-        "type:drupal-theme"
-      ]
-    },
-    "patches": {
-      "drupal/samlauth": {
-        "Ignore Role Restrictions": "/build/patches/samlauth_rolematch.patch"
-      }
-    }
-  },
-  "license": "MIT",
-  "minimum-stability": "dev",
-  "name": "unb-libraries/nblce.lib.unb.ca",
-  "prefer-stable": true,
-  "repositories": [
-    {
-      "type": "composer",
-      "url": "https://packages.drupal.org/8"
-    },
-    {
-      "package": {
-        "dist": {
-          "type": "zip",
-          "url": "https://github.com/dinbror/blazy/archive/1.8.2.zip"
-        },
-        "name": "dinbror/blazy",
-        "type": "drupal-library",
-        "version": "1.8.2"
-      },
-      "type": "package"
-    },
-    {
-      "package": {
-        "dist": {
-          "type": "zip",
-          "url": "https://github.com/unb-libraries/upstream-library-mirror/raw/master/fakeobjects/fakeobjects_4.16.0.zip"
-        },
-        "name": "ckeditor/fakeobjects",
-        "type": "drupal-library",
-        "version": "4.16.0"
-      },
-      "type": "package"
-    },
-    {
-      "package": {
-        "dist": {
-          "type": "zip",
-          "url": "https://github.com/unb-libraries/upstream-library-mirror/raw/master/link/link_4.16.0.zip"
-        },
-        "name": "ckeditor/link",
-        "type": "drupal-library",
-        "version": "4.16.0"
-      },
-      "type": "package"
-    },
-    {
-      "package": {
-        "dist": {
-          "type": "zip",
-          "url": "https://github.com/kenwheeler/slick/archive/refs/tags/v1.8.1.zip"
-        },
-        "name": "kenwheeler/slick",
-        "type": "drupal-library",
-        "version": "1.8.1"
-      },
-      "type": "package"
-    },
-    {
-      "package": {
-        "dist": {
-          "type": "zip",
-          "url": "https://github.com/markgoodyear/scrollup/archive/refs/heads/master.zip"
-        },
-        "extra": {
-          "installer-name": "scrollup"
-        },
-        "name": "markgoodyear/scrollup",
-        "type": "drupal-library",
-        "version": "dev-master"
-      },
-      "type": "package"
-    },
-    {
-      "package": {
-        "dist": {
-          "type": "zip",
-          "url": "https://github.com/w8tcha/CKEditor-CodeMirror-Plugin/archive/v1.17.12.zip"
-        },
-        "extra": {
-          "installer-name": "ckeditor_codemirror"
-        },
-        "name": "w8tcha/ckeditor-codemirror-plugin",
-        "type": "drupal-library",
-        "version": "1.17.12"
-      },
-      "type": "package"
-    }
-  ],
-  "require": {
-    "ckeditor/fakeobjects": "~4.16",
-    "ckeditor/link": "~4.16",
-    "dinbror/blazy": "^1.8.0",
-    "drupal/admin_toolbar": "3.1.0",
-    "drupal/anchor_link": "2.5",
-    "drupal/asset_injector": "2.9",
-    "drupal/bootstrap4": "2.1.14",
-    "drupal/ckeditor_codemirror": "2.3",
-    "drupal/core": "9.3.6",
-    "drupal/fakeobjects": "1.1",
-    "drupal/google_analytics": "2.5",
-    "drupal/health_check": "1.3",
-    "drupal/jquery_scrollup": "1.0",
-    "drupal/login_destination": "2.0-beta1",
-    "drupal/menu_entity_index": "1.3",
-    "drupal/metatag": "1.19",
-    "drupal/node_title_help_text": "1.2",
-    "drupal/noreqnewpass": "1.2",
-    "drupal/pathauto": "1.9",
-    "drupal/redis": "1.5",
-    "drupal/samlauth": "3.4",
-    "drupal/search_api": "1.23",
-    "drupal/search_api_solr": "4.2.7",
-    "drupal/simple_sitemap": "3.11",
-    "drupal/slick": "2.5",
-    "drupal/slick_views": "2.6",
-    "drupal/token": "1.10",
-    "drupal/twig_tweak": "2.9",
-    "kenwheeler/slick": "^1.8",
-    "markgoodyear/scrollup": "dev-master",
-    "unb-libraries/drupal-builder": "^9",
-    "unb-libraries/saml_features": "dev-8.x-1.x",
-    "w8tcha/ckeditor-codemirror-plugin": "^1.17.12"
-  },
-  "require-dev": {
-    "unb-libraries/drupal-development-libraries": "^9"
-  },
-  "scripts": {
-    "drupal-scaffold": "DrupalComposer\\DrupalScaffold\\Plugin::scaffold",
-    "post-install-cmd": [
-      "DrupalProject\\composer\\ScriptHandler::createRequiredFiles"
+    "authors": [
+        {
+            "name": "UNB Libraries libsupport@unb.ca",
+            "role": "Creator"
+        }
     ],
-    "post-update-cmd": [
-      "DrupalProject\\composer\\ScriptHandler::createRequiredFiles"
+    "autoload": {
+        "classmap": [
+            "scripts/composer/ScriptHandler.php"
+        ]
+    },
+    "config": {
+        "allow-plugins": {
+            "composer/installers": true,
+            "cweagans/composer-patches": true,
+            "drupal/core-composer-scaffold": true
+        },
+        "discard-changes": true,
+        "preferred-install": {
+            "*": "dist"
+        },
+        "sort-packages": true
+    },
+    "conflict": {
+        "drupal/drupal": "*"
+    },
+    "description": "Drupal 8 component of nblce.lib.unb.ca",
+    "extra": {
+        "enable-patching": true,
+        "installer-paths": {
+            "core": [
+                "type:drupal-core"
+            ],
+            "drush/contrib/{$name}": [
+                "type:drupal-drush"
+            ],
+            "libraries/{$name}": [
+                "type:drupal-library"
+            ],
+            "modules/contrib/{$name}": [
+                "type:drupal-module"
+            ],
+            "profiles/contrib/{$name}": [
+                "type:drupal-profile"
+            ],
+            "themes/contrib/{$name}": [
+                "type:drupal-theme"
+            ]
+        },
+        "patches": {
+            "drupal/samlauth": {
+                "Ignore Role Restrictions": "/build/patches/samlauth_rolematch.patch"
+            }
+        }
+    },
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "name": "unb-libraries/nblce.lib.unb.ca",
+    "prefer-stable": true,
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://packages.drupal.org/8"
+        },
+        {
+            "package": {
+                "dist": {
+                    "type": "zip",
+                    "url": "https://github.com/dinbror/blazy/archive/1.8.2.zip"
+                },
+                "name": "dinbror/blazy",
+                "type": "drupal-library",
+                "version": "1.8.2"
+            },
+            "type": "package"
+        },
+        {
+            "package": {
+                "dist": {
+                    "type": "zip",
+                    "url": "https://github.com/unb-libraries/upstream-library-mirror/raw/master/fakeobjects/fakeobjects_4.16.0.zip"
+                },
+                "name": "ckeditor/fakeobjects",
+                "type": "drupal-library",
+                "version": "4.16.0"
+            },
+            "type": "package"
+        },
+        {
+            "package": {
+                "dist": {
+                    "type": "zip",
+                    "url": "https://github.com/unb-libraries/upstream-library-mirror/raw/master/link/link_4.16.0.zip"
+                },
+                "name": "ckeditor/link",
+                "type": "drupal-library",
+                "version": "4.16.0"
+            },
+            "type": "package"
+        },
+        {
+            "package": {
+                "dist": {
+                    "type": "zip",
+                    "url": "https://github.com/kenwheeler/slick/archive/refs/tags/v1.8.1.zip"
+                },
+                "name": "kenwheeler/slick",
+                "type": "drupal-library",
+                "version": "1.8.1"
+            },
+            "type": "package"
+        },
+        {
+            "package": {
+                "dist": {
+                    "type": "zip",
+                    "url": "https://github.com/markgoodyear/scrollup/archive/refs/heads/master.zip"
+                },
+                "extra": {
+                    "installer-name": "scrollup"
+                },
+                "name": "markgoodyear/scrollup",
+                "type": "drupal-library",
+                "version": "dev-master"
+            },
+            "type": "package"
+        },
+        {
+            "package": {
+                "dist": {
+                    "type": "zip",
+                    "url": "https://github.com/w8tcha/CKEditor-CodeMirror-Plugin/archive/v1.17.12.zip"
+                },
+                "extra": {
+                    "installer-name": "ckeditor_codemirror"
+                },
+                "name": "w8tcha/ckeditor-codemirror-plugin",
+                "type": "drupal-library",
+                "version": "1.17.12"
+            },
+            "type": "package"
+        }
     ],
-    "pre-install-cmd": [
-      "DrupalProject\\composer\\ScriptHandler::checkComposerVersion"
-    ],
-    "pre-update-cmd": [
-      "DrupalProject\\composer\\ScriptHandler::checkComposerVersion"
-    ]
-  },
-  "type": "project"
+    "require": {
+        "ckeditor/fakeobjects": "~4.16",
+        "ckeditor/link": "~4.16",
+        "dinbror/blazy": "^1.8.0",
+        "drupal/admin_toolbar": "3.1.0",
+        "drupal/anchor_link": "2.5",
+        "drupal/asset_injector": "2.9",
+        "drupal/bootstrap4": "2.1.14",
+        "drupal/ckeditor_codemirror": "2.3",
+        "drupal/core": "9.3.6",
+        "drupal/fakeobjects": "1.1",
+        "drupal/google_analytics": "2.5",
+        "drupal/health_check": "1.3",
+        "drupal/jquery_scrollup": "1.0",
+        "drupal/login_destination": "2.0-beta1",
+        "drupal/menu_entity_index": "1.3",
+        "drupal/metatag": "1.19",
+        "drupal/node_title_help_text": "1.2",
+        "drupal/noreqnewpass": "1.2",
+        "drupal/pathauto": "1.9",
+        "drupal/redis": "1.5",
+        "drupal/samlauth": "3.4",
+        "drupal/search_api": "1.23",
+        "drupal/search_api_solr": "4.2.7",
+        "drupal/simple_sitemap": "3.11",
+        "drupal/slick": "2.6",
+        "drupal/slick_views": "2.6",
+        "drupal/token": "1.10",
+        "drupal/twig_tweak": "2.9",
+        "kenwheeler/slick": "^1.8",
+        "markgoodyear/scrollup": "dev-master",
+        "unb-libraries/drupal-builder": "^9",
+        "unb-libraries/saml_features": "dev-8.x-1.x",
+        "w8tcha/ckeditor-codemirror-plugin": "^1.17.12"
+    },
+    "require-dev": {
+        "unb-libraries/drupal-development-libraries": "^9"
+    },
+    "scripts": {
+        "drupal-scaffold": "DrupalComposer\\DrupalScaffold\\Plugin::scaffold",
+        "post-install-cmd": [
+            "DrupalProject\\composer\\ScriptHandler::createRequiredFiles"
+        ],
+        "post-update-cmd": [
+            "DrupalProject\\composer\\ScriptHandler::createRequiredFiles"
+        ],
+        "pre-install-cmd": [
+            "DrupalProject\\composer\\ScriptHandler::checkComposerVersion"
+        ],
+        "pre-update-cmd": [
+            "DrupalProject\\composer\\ScriptHandler::checkComposerVersion"
+        ]
+    },
+    "type": "project"
 }
