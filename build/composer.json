@@ -161,7 +161,7 @@
     "drupal/metatag": "1.19",
     "drupal/node_title_help_text": "1.2",
     "drupal/noreqnewpass": "1.2",
-    "drupal/pathauto": "1.9",
+    "drupal/pathauto": "1.10",
     "drupal/redis": "1.5",
     "drupal/samlauth": "3.5",
     "drupal/search_api": "1.23",
