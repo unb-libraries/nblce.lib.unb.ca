@@ -150,7 +150,7 @@
     "drupal/anchor_link": "2.5",
     "drupal/asset_injector": "2.10",
     "drupal/bootstrap4": "2.1.14",
-    "drupal/ckeditor_codemirror": "2.3",
+    "drupal/ckeditor_codemirror": "2.4",
     "drupal/core": "9.3.16",
     "drupal/fakeobjects": "1.1",
     "drupal/google_analytics": "2.5",
