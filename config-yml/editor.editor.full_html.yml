@@ -62,8 +62,6 @@ settings:
   plugins:
     stylescombo:
       styles: "span.ml-3|Small tab\r\nspan.ml-5|Medium tab\r\nspan.indent-lg|Large tab\r\nspan.subtitle|Subtitle\r\np.biblio|Hanging indent\r\nli.list-item-compact|Tight list item\r\nol.list-lower-alpha|List lower alpha\r\nol.list-lower-roman|List lower roman\r\nul.list-no-bullets|List unbulleted"
-    language:
-      language_list: un
     codemirror:
       enable: true
       mode: htmlmixed
@@ -81,8 +79,6 @@ settings:
         autoFormatOnStart: true
         autoFormatOnModeChange: true
         autoFormatOnUncomment: true
-    linkit:
-      linkit_profile: default_linkit_profile
 image_upload:
   status: false
   scheme: public
