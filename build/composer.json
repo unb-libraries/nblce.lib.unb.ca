@@ -145,7 +145,7 @@
     "dinbror/blazy": "^1.8.0",
     "drupal/admin_toolbar": "3.3.0",
     "drupal/anchor_link": "2.5",
-    "drupal/asset_injector": "2.12",
+    "drupal/asset_injector": "2.16",
     "drupal/bootstrap4": "2.1.15",
     "drupal/ckeditor_codemirror": "2.4",
     "drupal/core": "9.5.1",
