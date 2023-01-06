@@ -164,7 +164,7 @@
     "drupal/search_api": "1.28",
     "drupal/search_api_solr": "4.2.10",
     "drupal/simple_sitemap": "3.11",
-    "drupal/slick": "2.6",
+    "drupal/slick": "2.7",
     "drupal/slick_views": "2.6",
     "drupal/token": "1.11",
     "drupal/twig_tweak": "2.9",
