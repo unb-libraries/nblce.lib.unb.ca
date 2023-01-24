@@ -3,7 +3,7 @@ langcode: en
 status: true
 dependencies:
   module:
-    - ctools
+    - node
     - system
     - user
 id: linkit_modal
@@ -25,9 +25,8 @@ conditions:
       module_page: module_page
   current_theme:
     id: current_theme
-    theme:
-      claro: claro
     negate: false
+    theme: claro
   user_role:
     id: user_role
     negate: false
