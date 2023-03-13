@@ -76,11 +76,11 @@
       "package": {
         "dist": {
           "type": "zip",
-          "url": "https://github.com/unb-libraries/upstream-library-mirror/raw/master/fakeobjects/fakeobjects_4.16.0.zip"
+          "url": "https://github.com/unb-libraries/upstream-library-mirror/raw/master/fakeobjects/fakeobjects_4.20.1.zip"
         },
         "name": "ckeditor/fakeobjects",
         "type": "drupal-library",
-        "version": "4.16.0"
+        "version": "4.20.1"
       },
       "type": "package"
     },
@@ -88,11 +88,11 @@
       "package": {
         "dist": {
           "type": "zip",
-          "url": "https://github.com/unb-libraries/upstream-library-mirror/raw/master/link/link_4.16.0.zip"
+          "url": "https://github.com/unb-libraries/upstream-library-mirror/raw/master/link/link_4.20.1.zip"
         },
         "name": "ckeditor/link",
         "type": "drupal-library",
-        "version": "4.16.0"
+        "version": "4.20.1"
       },
       "type": "package"
     },
@@ -127,21 +127,21 @@
       "package": {
         "dist": {
           "type": "zip",
-          "url": "https://github.com/w8tcha/CKEditor-CodeMirror-Plugin/archive/v1.17.12.zip"
+          "url": "https://github.com/w8tcha/CKEditor-CodeMirror-Plugin/archive/refs/tags/v1.18.7.zip"
         },
         "extra": {
           "installer-name": "ckeditor_codemirror"
         },
         "name": "w8tcha/ckeditor-codemirror-plugin",
         "type": "drupal-library",
-        "version": "1.17.12"
+        "version": "1.18.7"
       },
       "type": "package"
     }
   ],
   "require": {
-    "ckeditor/fakeobjects": "~4.16",
-    "ckeditor/link": "~4.16",
+    "ckeditor/fakeobjects": "~4.20",
+    "ckeditor/link": "~4.20",
     "dinbror/blazy": "^1.8.0",
     "drupal/admin_toolbar": "3.3.0",
     "drupal/anchor_link": "2.6",
