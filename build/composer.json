@@ -163,7 +163,7 @@
     "drupal/samlauth": "3.8",
     "drupal/search_api": "1.28",
     "drupal/search_api_solr": "4.2.10",
-    "drupal/simple_sitemap": "3.11",
+    "drupal/simple_sitemap": "4.1.4",
     "drupal/slick": "2.7",
     "drupal/slick_views": "2.6",
     "drupal/token": "1.11",
