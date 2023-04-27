@@ -150,7 +150,7 @@
     "drupal/asset_injector": "2.16",
     "drupal/bootstrap4": "2.1.18",
     "drupal/ckeditor_codemirror": "2.4",
-    "drupal/core": "9.5.7",
+    "drupal/core": "9.5.8",
     "drupal/fakeobjects": "1.2",
     "drupal/google_analytics": "2.5",
     "drupal/health_check": "2.0.1",
