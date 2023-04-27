@@ -156,7 +156,7 @@
     "drupal/health_check": "2.0.1",
     "drupal/jquery_scrollup": "2.0.0",
     "drupal/login_destination": "2.0-beta6",
-    "drupal/menu_entity_index": "1.5",
+    "drupal/menu_entity_index": "1.6",
     "drupal/metatag": "1.22",
     "drupal/node_title_help_text": "1.2",
     "drupal/noreqnewpass": "1.3",
