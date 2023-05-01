@@ -14,8 +14,8 @@
     "allow-plugins": {
       "composer/installers": true,
       "cweagans/composer-patches": true,
-      "drupal/core-composer-scaffold": true,
       "dealerdirect/phpcodesniffer-composer-installer": true,
+      "drupal/core-composer-scaffold": true,
       "php-http/discovery": true
     },
     "discard-changes": true,
@@ -145,7 +145,7 @@
     "ckeditor/fakeobjects": "~4.20",
     "ckeditor/link": "~4.20",
     "dinbror/blazy": "^1.8.0",
-    "drupal/admin_toolbar": "3.3.0",
+    "drupal/admin_toolbar": "3.3.1",
     "drupal/anchor_link": "2.6",
     "drupal/asset_injector": "2.16",
     "drupal/bootstrap4": "2.1.18",
