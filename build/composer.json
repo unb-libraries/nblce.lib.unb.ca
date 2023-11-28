@@ -102,11 +102,11 @@
       "package": {
         "dist": {
           "type": "zip",
-          "url": "https://github.com/kenwheeler/slick/archive/refs/tags/v1.8.1.zip"
+          "url": "https://github.com/kenwheeler/slick/archive/refs/tags/1.8.0.zip"
         },
         "name": "kenwheeler/slick",
         "type": "drupal-library",
-        "version": "1.8.1"
+        "version": "1.8.0"
       },
       "type": "package"
     },
@@ -166,11 +166,11 @@
     "drupal/search_api": "1.29",
     "drupal/search_api_solr": "4.2.12",
     "drupal/simple_sitemap": "4.1.6",
-    "drupal/slick": "2.9",
-    "drupal/slick_views": "2.7",
+    "drupal/slick": "2.10",
+    "drupal/slick_views": "2.8",
     "drupal/token": "1.12",
     "drupal/twig_tweak": "2.9",
-    "kenwheeler/slick": "^1.8",
+    "kenwheeler/slick": "<1.8.1",
     "markgoodyear/scrollup": "dev-master",
     "unb-libraries/drupal-builder": "^9",
     "unb-libraries/saml_features": "dev-9.x-1.x",
