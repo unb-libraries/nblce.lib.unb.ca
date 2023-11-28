@@ -145,7 +145,7 @@
     "ckeditor/fakeobjects": "~4.20",
     "ckeditor/link": "~4.20",
     "dinbror/blazy": "^1.8.0",
-    "drupal/admin_toolbar": "3.4.1",
+    "drupal/admin_toolbar": "3.4.2",
     "drupal/anchor_link": "2.6",
     "drupal/asset_injector": "2.17",
     "drupal/blazy": "2.22",
