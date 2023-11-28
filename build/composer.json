@@ -169,7 +169,7 @@
     "drupal/simple_sitemap": "4.1.6",
     "drupal/slick": "2.10",
     "drupal/slick_views": "2.8",
-    "drupal/token": "1.12",
+    "drupal/token": "1.13",
     "kenwheeler/slick": "<1.8.1",
     "markgoodyear/scrollup": "dev-master",
     "unb-libraries/drupal-builder": "^9",
