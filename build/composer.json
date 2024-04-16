@@ -151,7 +151,7 @@
     "drupal/blazy": "2.24",
     "drupal/bootstrap4": "2.1.18",
     "drupal/ckeditor_codemirror": "2.4",
-    "drupal/core": "9.5.10",
+    "drupal/core": "9.5.11",
     "drupal/fakeobjects": "1.2",
     "drupal/google_analytics": "4.0.2",
     "drupal/health_check": "2.0.1",
