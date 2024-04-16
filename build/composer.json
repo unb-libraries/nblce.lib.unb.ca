@@ -167,7 +167,7 @@
     "drupal/search_api": "<=1.30",
     "drupal/search_api_solr": "<=4.3.1",
     "drupal/simple_sitemap": "4.1.9",
-    "drupal/slick": "2.10",
+    "drupal/slick": "2.11",
     "drupal/slick_views": "2.8",
     "drupal/token": "1.14",
     "kenwheeler/slick": "<1.8.1",
