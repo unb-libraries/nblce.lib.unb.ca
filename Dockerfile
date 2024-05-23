@@ -16,7 +16,7 @@ RUN ${RSYNC_MOVE} /build/scripts/container/ /scripts/ && \
   /scripts/build.sh
 
 # Deploy configuration.
-COPY ./config-yml ${DRUPAL_CONFIGURATION_DIR}
+COPY ./configuration ${DRUPAL_CONFIGURATION_DIR}
 RUN /scripts/pre-init.d/72_secure_config_sync_dir.sh
 
 # Deploy custom modules, themes.
@@ -28,7 +28,7 @@ LABEL ca.unb.lib.generator="drupal9" \
   com.microscaling.docker.dockerfile="/Dockerfile" \
   com.microscaling.license="MIT" \
   org.label-schema.build-date=$BUILD_DATE \
-  org.label-schema.description="nblce.lib.unb.ca is the NBLCE application at UNB Libraries." \
+  org.label-schema.description="New Brunswick Literature Curriculum in English is a guided reading tool for those who want to know more about New Brunswick literature" \
   org.label-schema.name="nblce.lib.unb.ca" \
   org.label-schema.schema-version="1.0" \
   org.label-schema.url="https://nblce.lib.unb.ca" \
