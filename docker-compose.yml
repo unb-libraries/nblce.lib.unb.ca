@@ -67,6 +67,8 @@ services:
       - "4108:8025"
     networks:
       - nblce.lib.unb.ca
+    profiles:
+      - mailhog
 networks:
   nblce.lib.unb.ca:
     name: nblce.lib.unb.ca
