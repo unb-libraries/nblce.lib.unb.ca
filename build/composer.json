@@ -149,7 +149,7 @@
     "drupal/anchor_link": "2.7",
     "drupal/asset_injector": "2.20",
     "drupal/blazy": "2.27",
-    "drupal/bootstrap4": "2.1.18",
+    "drupal/bootstrap4": "3.0.5",
     "drupal/ckeditor_codemirror": "2.4",
     "drupal/core": "9.5.11",
     "drupal/fakeobjects": "1.2",
