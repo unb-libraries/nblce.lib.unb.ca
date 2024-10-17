@@ -148,7 +148,7 @@
           "url": "https://github.com/codemirror/codemirror5/archive/refs/tags/5.65.18.zip"
         },
         "extra": {
-          "installer-name": "scrollup"
+          "installer-name": "codemirror5"
         },
         "name": "codemirror/codemirror5",
         "type": "drupal-library",
@@ -157,24 +157,42 @@
       "type": "package"
     },
     {
-      "type": "package",
       "package": {
+        "dist": {
+          "type": "zip",
+          "url": "https://github.com/codemirror/basic-setup/archive/refs/tags/6.0.1.zip"
+        },
+        "extra": {
+          "installer-name": "basic-setup"
+        },
+        "name": "codemirror/basic-setup",
+        "type": "drupal-library",
+        "version": "6.0.1"
+      },
+      "type": "package"
+    },
+    {
+      "package": {
+        "dist": {
+          "type": "zip",
+          "url": "https://github.com/cdubz/ckeditor5-source-editing-codemirror/archive/refs/tags/35.1.0.zip"
+        },
+        "extra": {
+          "installer-name": "ckeditor5-source-editing-codemirror"
+        },
         "name": "cdubz/ckeditor5-source-editing-codemirror",
         "type": "drupal-library",
-        "version": "dev-master",
-        "source": {
-          "url": "https://github.com/cdubz/ckeditor5-source-editing-codemirror.git",
-          "type": "git",
-          "reference": "main"
-        }
-      }
+        "version": "35.1.0"
+      },
+      "type": "package"
     }
   ],
   "require": {
-    "cdubz/ckeditor5-source-editing-codemirror": "dev-master",
+    "cdubz/ckeditor5-source-editing-codemirror": "^35",
     "ckeditor/fakeobjects": "^4",
     "ckeditor/link": "^4",
     "codemirror/codemirror5": "^5",
+    "codemirror/basic-setup": "^6",
     "dinbror/blazy": "^1",
     "drupal/admin_toolbar": "^3",
     "drupal/anchor_link": "^2",

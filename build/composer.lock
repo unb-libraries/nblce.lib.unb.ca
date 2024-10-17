@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "79fcba418bdbf5bdcc9cce42bcb4417e",
+    "content-hash": "9c050096bb1ca75ccb95751a004952ca",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -64,13 +64,15 @@
         },
         {
             "name": "cdubz/ckeditor5-source-editing-codemirror",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/cdubz/ckeditor5-source-editing-codemirror.git",
-                "reference": "main"
+            "version": "35.1.0",
+            "dist": {
+                "type": "zip",
+                "url": "https://github.com/cdubz/ckeditor5-source-editing-codemirror/archive/refs/tags/35.1.0.zip"
             },
-            "type": "drupal-library"
+            "type": "drupal-library",
+            "extra": {
+                "installer-name": "ckeditor5-source-editing-codemirror"
+            }
         },
         {
             "name": "chi-teck/drupal-code-generator",
@@ -151,7 +153,19 @@
             "type": "drupal-library"
         },
         {
-            "name": "codemirror/codemirror5",
+            "name": "codemirror/basic-setup",
+            "version": "6.0.1",
+            "dist": {
+                "type": "zip",
+                "url": "https://github.com/codemirror/basic-setup/archive/refs/tags/6.0.1.zip"
+            },
+            "type": "drupal-library",
+            "extra": {
+                "installer-name": "basic-setup"
+            }
+        },
+        {
+            "name": "codemirror/codemirror",
             "version": "5.65.18",
             "dist": {
                 "type": "zip",
@@ -159,7 +173,7 @@
             },
             "type": "drupal-library",
             "extra": {
-                "installer-name": "scrollup"
+                "installer-name": "codemirror5"
             }
         },
         {
@@ -14399,7 +14413,6 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
-        "cdubz/ckeditor5-source-editing-codemirror": 20,
         "markgoodyear/scrollup": 20,
         "unb-libraries/saml_features": 20
     },
