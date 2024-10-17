@@ -16,7 +16,9 @@
       "cweagans/composer-patches": true,
       "dealerdirect/phpcodesniffer-composer-installer": true,
       "drupal/core-composer-scaffold": true,
-      "phpstan/extension-installer": true
+      "phpstan/extension-installer": true,
+      "php-http/discovery": true,
+      "tbachert/spi": true
     },
     "discard-changes": true,
     "preferred-install": {
@@ -163,7 +165,7 @@
         "source": {
           "url": "https://github.com/cdubz/ckeditor5-source-editing-codemirror.git",
           "type": "git",
-          "reference": "master"
+          "reference": "main"
         }
       }
     }
@@ -205,8 +207,7 @@
     "kenwheeler/slick": "<1.8.1",
     "markgoodyear/scrollup": "dev-master",
     "unb-libraries/saml_features": "dev-10.x-1.x",
-    "unb-libraries/composer-drupal-scaffold": "^10",
-    "w8tcha/ckeditor-codemirror-plugin": "^10"
+    "unb-libraries/composer-drupal-scaffold": "^10"
   },
   "require-dev": {
     "unb-libraries/drupal-development-libraries": "^10"
