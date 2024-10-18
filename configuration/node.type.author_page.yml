@@ -15,7 +15,7 @@ third_party_settings:
 name: 'Author page'
 type: author_page
 description: 'Use author pages for your author resource pages, such as <b>Passamaquoddy</b> or <b>Bliss Carmen</b> page.'
-help: ''
+help: null
 new_revision: true
 preview_mode: 1
 display_submitted: false

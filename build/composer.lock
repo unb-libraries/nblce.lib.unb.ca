@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "9c050096bb1ca75ccb95751a004952ca",
+    "content-hash": "25b98e9c68643d0cdb2fa1ea64708a5b",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -165,7 +165,7 @@
             }
         },
         {
-            "name": "codemirror/codemirror",
+            "name": "codemirror/codemirror5",
             "version": "5.65.18",
             "dist": {
                 "type": "zip",

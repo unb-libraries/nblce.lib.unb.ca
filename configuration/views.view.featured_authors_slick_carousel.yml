@@ -234,7 +234,6 @@ display:
             field_media_image: '0'
           optionset: nblce
           class: ''
-          id: ''
           image: ''
           link: ''
           overlay: ''
@@ -242,11 +241,12 @@ display:
           vanilla: true
           layout: ''
           cache: 0
-          skin: ''
           grid: null
           grid_medium: null
           grid_small: null
           current_view_mode: block_1
+          id: ''
+          skin: ''
           overridables:
             arrows: '0'
             autoplay: '0'

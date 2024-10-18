@@ -1,7 +1,15 @@
 uuid: 9ee65812-4b4e-4602-85d5-89b4a6a92062
 langcode: en
 status: true
-dependencies: {  }
+dependencies:
+  config:
+    - node.type.author_page
+    - node.type.basic_page
+    - node.type.module_page
+  module:
+    - node
+    - system
+    - toolbar
 id: content_editor
 label: 'Content Editor'
 weight: 2

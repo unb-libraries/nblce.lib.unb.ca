@@ -1,89 +1,87 @@
-uuid: e28a789e-b40f-4efc-bc93-e7dadf2568e6
+uuid: 78e1e0a6-9869-434f-9d41-07e4e5f6cf8a
 langcode: en
 status: true
 dependencies:
   config:
     - filter.format.full_html
   module:
-    - ckeditor
+    - ckeditor5
 format: full_html
-editor: ckeditor
+editor: ckeditor5
 settings:
   toolbar:
-    rows:
-      -
-        -
-          name: 'Block Formatting'
-          items:
-            - Format
-        -
-          name: Formatting
-          items:
-            - Bold
-            - Italic
-            - Superscript
-        -
-          name: Links
-          items:
-            - Link
-            - Unlink
-            - Anchor
-            - Linkit
-        -
-          name: Lists
-          items:
-            - BulletedList
-            - NumberedList
-            - Outdent
-            - Indent
-        -
-          name: Alignment
-          items:
-            - JustifyLeft
-            - JustifyCenter
-            - JustifyRight
-        -
-          name: Misc
-          items:
-            - Blockquote
-            - SpecialChar
-            - Table
-            - HorizontalRule
-        -
-          name: Custom
-          items:
-            - Styles
-            - RemoveFormat
-        -
-          name: Tools
-          items:
-            - Source
-            - Maximize
+    items:
+      - heading
+      - '|'
+      - bold
+      - italic
+      - superscript
+      - '|'
+      - bulletedList
+      - numberedList
+      - outdent
+      - indent
+      - '|'
+      - alignment
+      - '|'
+      - blockQuote
+      - specialCharacters
+      - insertTable
+      - horizontalLine
+      - '|'
+      - style
+      - '|'
+      - sourceEditing
   plugins:
-    stylescombo:
-      styles: "span.ml-3|Small tab\r\nspan.ml-5|Medium tab\r\nspan.indent-lg|Large tab\r\nspan.subtitle|Subtitle\r\np.biblio|Hanging indent\r\nli.list-item-compact|Tight list item\r\nol.list-lower-alpha|List lower alpha\r\nol.list-lower-roman|List lower roman\r\nul.list-no-bullets|List unbulleted"
-    codemirror:
-      enable: true
-      mode: htmlmixed
-      theme: tomorrow-night-bright
-      startupMode: wysiwyg
-      options:
-        lineNumbers: true
-        lineWrapping: true
-        matchBrackets: true
-        autoCloseTags: true
-        autoCloseBrackets: true
-        enableSearchTools: true
-        enableCodeFolding: true
-        enableCodeFormatting: true
-        autoFormatOnStart: true
-        autoFormatOnModeChange: true
-        autoFormatOnUncomment: true
+    ckeditor5_alignment:
+      enabled_alignments:
+        - center
+        - justify
+        - left
+        - right
+    ckeditor5_heading:
+      enabled_headings:
+        - heading2
+        - heading3
+        - heading4
+        - heading5
+        - heading6
+    ckeditor5_list:
+      properties:
+        reversed: false
+        startIndex: true
+      multiBlock: true
+    ckeditor5_sourceEditing:
+      allowed_tags:
+        - '<span>'
+    ckeditor5_style:
+      styles:
+        -
+          label: 'Small tab'
+          element: '<span class="ml-3">'
+        -
+          label: 'Medium tab'
+          element: '<span class="ml-5">'
+        -
+          label: 'Large tab'
+          element: '<span class="indent-lg">'
+        -
+          label: Subtitle
+          element: '<span class="subtitle">'
+        -
+          label: 'Hanging indent'
+          element: '<p class="biblio">'
+        -
+          label: 'Tight list item'
+          element: '<li class="list-item-compact">'
+        -
+          label: 'List lower alpha'
+          element: '<ol class="list-lower-alpha">'
+        -
+          label: 'List lower roman'
+          element: '<ol class="list-lower-roman">'
+        -
+          label: 'List unbulleted'
+          element: '<ul class="list-no-bullets">'
 image_upload:
   status: false
-  scheme: public
-  directory: inline-images
-  max_size: ''
-  max_dimensions:
-    width: null
-    height: null

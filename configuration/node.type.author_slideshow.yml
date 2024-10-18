@@ -14,7 +14,7 @@ third_party_settings:
 name: 'Author Slideshow'
 type: author_slideshow
 description: 'Used to create the front page <em>featured authors</em> slideshow.'
-help: ''
+help: null
 new_revision: false
 preview_mode: 0
 display_submitted: false

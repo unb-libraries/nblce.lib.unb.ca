@@ -160,21 +160,6 @@
       "package": {
         "dist": {
           "type": "zip",
-          "url": "https://github.com/codemirror/basic-setup/archive/refs/tags/6.0.1.zip"
-        },
-        "extra": {
-          "installer-name": "basic-setup"
-        },
-        "name": "codemirror/basic-setup",
-        "type": "drupal-library",
-        "version": "6.0.1"
-      },
-      "type": "package"
-    },
-    {
-      "package": {
-        "dist": {
-          "type": "zip",
           "url": "https://github.com/cdubz/ckeditor5-source-editing-codemirror/archive/refs/tags/35.1.0.zip"
         },
         "extra": {
@@ -188,10 +173,8 @@
     }
   ],
   "require": {
-    "cdubz/ckeditor5-source-editing-codemirror": "^35",
     "ckeditor/fakeobjects": "^4",
     "ckeditor/link": "^4",
-    "codemirror/codemirror5": "^5",
     "codemirror/basic-setup": "^6",
     "dinbror/blazy": "^1",
     "drupal/admin_toolbar": "^3",
@@ -200,7 +183,6 @@
     "drupal/blazy": "^2",
     "drupal/bootstrap4": "^3",
     "drupal/ckeditor": "^1",
-    "drupal/ckeditor_codemirror": "^3",
     "drupal/core": "^10",
     "drupal/core-composer-scaffold": "^10",
     "drupal/core-recommended": "^10",
