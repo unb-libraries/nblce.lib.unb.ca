@@ -33,6 +33,7 @@ settings:
       - style
       - '|'
       - sourceEditing
+      - fullScreen
   plugins:
     ckeditor5_alignment:
       enabled_alignments:
