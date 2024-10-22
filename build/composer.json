@@ -121,6 +121,7 @@
   "require": {
     "dinbror/blazy": "^1",
     "drupal/admin_toolbar": "^3",
+    "drupal/editor_advanced_link": "^2",
     "drupal/asset_injector": "^2",
     "drupal/blazy": "^3",
     "drupal/bootstrap4": "^3",
