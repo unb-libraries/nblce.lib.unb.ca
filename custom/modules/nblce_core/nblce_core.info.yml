@@ -1,6 +1,5 @@
 name: 'NBLCE Core'
 type: module
 description: 'Provides core functionality for the NBLCE site.'
-core: 8.x
 core_version_requirement: ^9 || ^10
 package: 'UNB Libraries'
