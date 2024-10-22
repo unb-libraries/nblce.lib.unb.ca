@@ -51,7 +51,7 @@ filters:
     status: true
     weight: -10
     settings:
-      allowed_html: '<br> <p class="biblio text-align-left text-align-center text-align-right text-align-justify"> <h2 class="text-align-left text-align-center text-align-right text-align-justify"> <h3 class="text-align-left text-align-center text-align-right text-align-justify"> <h4 class="text-align-left text-align-center text-align-right text-align-justify"> <h5 class="text-align-left text-align-center text-align-right text-align-justify"> <h6 class="text-align-left text-align-center text-align-right text-align-justify"> <span class="ml-3 ml-5 indent-lg subtitle"> <li class="list-item-compact"> <ol class="list-lower-alpha list-lower-roman" start> <ul class="list-no-bullets"> <strong> <em> <sup> <blockquote> <hr> <table> <tr> <td rowspan colspan> <th rowspan colspan> <thead> <tbody> <tfoot> <caption>'
+      allowed_html: '<br> <p class="biblio text-align-left text-align-center text-align-right text-align-justify"> <h2 id class="text-align-left text-align-center text-align-right text-align-justify"> <h3 id class="text-align-left text-align-center text-align-right text-align-justify"> <h4 class="text-align-left text-align-center text-align-right text-align-justify"> <h5 class="text-align-left text-align-center text-align-right text-align-justify"> <h6 class="text-align-left text-align-center text-align-right text-align-justify"> <span class="ml-3 ml-5 indent-lg subtitle"> <li class="list-item-compact"> <ol class="list-lower-alpha list-lower-roman" start> <ul class="list-no-bullets"> <strong> <em> <sup> <blockquote> <a href aria-label class id target="_blank" rel> <hr> <table> <tr> <td rowspan colspan> <th rowspan colspan> <thead> <tbody> <tfoot> <caption>'
       filter_html_help: true
       filter_html_nofollow: false
   slick_filter:
@@ -64,7 +64,9 @@ filters:
         alt: '0'
         title: '0'
       optionset: default
+      by_delta: null
       layout: ''
+      admin_uri: '/admin/config/content/formats/manage/full_html?destination=/admin/config/content/formats&ajax_form=1&_wrapper_format=drupal_ajax'
       background: false
       box_caption: ''
       box_caption_custom: ''
