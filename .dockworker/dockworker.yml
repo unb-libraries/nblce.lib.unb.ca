@@ -16,8 +16,8 @@ dockworker:
       uuid: 3108
     framework:
       name: Drupal
-      version: 9
-      startup_finished_marker: '99_zz_notify_user_URI'
+      version: 10
+      startup_finished_marker: '99_startup_sequence_complete'
       endpoint:
         name: http
         port: 80
@@ -55,7 +55,7 @@ dockworker:
         - NBLCE
     image:
       name: ghcr.io/unb-libraries/nblce.lib.unb.ca
-      parent: ghcr.io/unb-libraries/drupal:9.x-2.x-unblib
+      parent: ghcr.io/unb-libraries/drupal:10.x-1.x-unblib
       repository: GitHub
       push-branches:
         - dev
