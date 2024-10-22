@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "5b038aadb94bed9a4aff598ce782f839",
+    "content-hash": "dd2c6c5b0de8e7309e186a007b9e5e0e",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -121,15 +121,6 @@
                 "source": "https://github.com/Chi-teck/drupal-code-generator/tree/3.6.1"
             },
             "time": "2024-06-06T17:36:37+00:00"
-        },
-        {
-            "name": "ckeditor/link",
-            "version": "4.20.1",
-            "dist": {
-                "type": "zip",
-                "url": "https://github.com/unb-libraries/upstream-library-mirror/raw/master/link/link_4.20.1.zip"
-            },
-            "type": "drupal-library"
         },
         {
             "name": "composer/installers",

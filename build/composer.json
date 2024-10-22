@@ -94,18 +94,6 @@
       "package": {
         "dist": {
           "type": "zip",
-          "url": "https://github.com/unb-libraries/upstream-library-mirror/raw/master/link/link_4.20.1.zip"
-        },
-        "name": "ckeditor/link",
-        "type": "drupal-library",
-        "version": "4.20.1"
-      },
-      "type": "package"
-    },
-    {
-      "package": {
-        "dist": {
-          "type": "zip",
           "url": "https://github.com/kenwheeler/slick/archive/refs/tags/1.8.0.zip"
         },
         "name": "kenwheeler/slick",
@@ -131,7 +119,6 @@
     }
   ],
   "require": {
-    "ckeditor/link": "^4",
     "dinbror/blazy": "^1",
     "drupal/admin_toolbar": "^3",
     "drupal/asset_injector": "^2",
