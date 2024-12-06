@@ -157,3 +157,10 @@ li.list-item-compact li,
 #scrollUp {
   opacity: .7;
 }
+
+/* Attempt to eradicate Chromium scrollbar shift */
+/* Source: https://dev.to/rashidshamloo/preventing-the-layout-shift-caused-by-scrollbars-2flp#comment-29i8p */
+.container {
+  position: relative;
+  left: calc((100vw - 100%) / 2);
+}
