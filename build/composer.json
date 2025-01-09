@@ -134,7 +134,7 @@
     "drupal/jquery_scrollup": "^2",
     "drupal/login_destination": "^2",
     "drupal/menu_entity_index": "^1",
-    "drupal/metatag": "^1",
+    "drupal/metatag": "^2",
     "drupal/node_title_help_text": "^1",
     "drupal/noreqnewpass": "^1",
     "drupal/pathauto": "^1",
