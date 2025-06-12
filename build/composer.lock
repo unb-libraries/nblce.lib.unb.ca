@@ -118,16 +118,16 @@
         },
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.344.2",
+            "version": "3.344.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "3a6aaaea75f4605f89aa57ad63b9a077bf01e1e5"
+                "reference": "70ffa372fb7813f904063ddbf25be2fc540230d0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/3a6aaaea75f4605f89aa57ad63b9a077bf01e1e5",
-                "reference": "3a6aaaea75f4605f89aa57ad63b9a077bf01e1e5",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/70ffa372fb7813f904063ddbf25be2fc540230d0",
+                "reference": "70ffa372fb7813f904063ddbf25be2fc540230d0",
                 "shasum": ""
             },
             "require": {
@@ -209,9 +209,9 @@
             "support": {
                 "forum": "https://github.com/aws/aws-sdk-php/discussions",
                 "issues": "https://github.com/aws/aws-sdk-php/issues",
-                "source": "https://github.com/aws/aws-sdk-php/tree/3.344.2"
+                "source": "https://github.com/aws/aws-sdk-php/tree/3.344.5"
             },
-            "time": "2025-06-06T18:14:42+00:00"
+            "time": "2025-06-11T18:06:01+00:00"
         },
         {
             "name": "caxy/php-htmldiff",
@@ -1671,17 +1671,17 @@
         },
         {
             "name": "drupal/ckeditor5_plugin_pack",
-            "version": "1.3.1",
+            "version": "1.3.2",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/ckeditor5_plugin_pack.git",
-                "reference": "1.3.1"
+                "reference": "1.3.2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/ckeditor5_plugin_pack-1.3.1.zip",
-                "reference": "1.3.1",
-                "shasum": "78f378384f892407c394a5f5dde96b031dd3685a"
+                "url": "https://ftp.drupal.org/files/projects/ckeditor5_plugin_pack-1.3.2.zip",
+                "reference": "1.3.2",
+                "shasum": "74f3c83c54a730d89fff3cbec5d5e7b90f565bd0"
             },
             "require": {
                 "drupal/ckeditor5_premium_features": "^1.3",
@@ -1694,8 +1694,8 @@
             "type": "drupal-module",
             "extra": {
                 "drupal": {
-                    "version": "1.3.1",
-                    "datestamp": "1742472943",
+                    "version": "1.3.2",
+                    "datestamp": "1749637628",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -1727,17 +1727,17 @@
         },
         {
             "name": "drupal/ckeditor5_premium_features",
-            "version": "1.4.1",
+            "version": "1.4.2",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/ckeditor5_premium_features.git",
-                "reference": "1.4.1"
+                "reference": "1.4.2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/ckeditor5_premium_features-1.4.1.zip",
-                "reference": "1.4.1",
-                "shasum": "95a075af1421ad75659d05fa1bbc7dbe1649eec6"
+                "url": "https://ftp.drupal.org/files/projects/ckeditor5_premium_features-1.4.2.zip",
+                "reference": "1.4.2",
+                "shasum": "c02d105dc965435432de514870c3266665357631"
             },
             "require": {
                 "aws/aws-sdk-php": "^3.296",
@@ -1756,8 +1756,8 @@
             "type": "drupal-module",
             "extra": {
                 "drupal": {
-                    "version": "1.4.1",
-                    "datestamp": "1742472690",
+                    "version": "1.4.2",
+                    "datestamp": "1749637764",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -13860,16 +13860,16 @@
         },
         {
             "name": "slevomat/coding-standard",
-            "version": "8.19.0",
+            "version": "8.19.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/slevomat/coding-standard.git",
-                "reference": "9cc50509c3912d465a9f6898069f64cf2abf4e8a"
+                "reference": "458d665acd49009efebd7e0cb385d71ae9ac3220"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/slevomat/coding-standard/zipball/9cc50509c3912d465a9f6898069f64cf2abf4e8a",
-                "reference": "9cc50509c3912d465a9f6898069f64cf2abf4e8a",
+                "url": "https://api.github.com/repos/slevomat/coding-standard/zipball/458d665acd49009efebd7e0cb385d71ae9ac3220",
+                "reference": "458d665acd49009efebd7e0cb385d71ae9ac3220",
                 "shasum": ""
             },
             "require": {
@@ -13909,7 +13909,7 @@
             ],
             "support": {
                 "issues": "https://github.com/slevomat/coding-standard/issues",
-                "source": "https://github.com/slevomat/coding-standard/tree/8.19.0"
+                "source": "https://github.com/slevomat/coding-standard/tree/8.19.1"
             },
             "funding": [
                 {
@@ -13921,7 +13921,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2025-06-07T15:02:20+00:00"
+            "time": "2025-06-09T17:53:57+00:00"
         },
         {
             "name": "squizlabs/php_codesniffer",
