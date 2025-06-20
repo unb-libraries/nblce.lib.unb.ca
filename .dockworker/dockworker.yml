@@ -12,7 +12,7 @@ dockworker:
     identifiers:
       id: nblce.lib.unb.ca
       slug: nblce-lib-unb-ca
-      short_slug: hit
+      short_slug: nblce
       uuid: 3108
     framework:
       name: Drupal
