@@ -1326,26 +1326,26 @@
         },
         {
             "name": "drupal/bootstrap4",
-            "version": "3.0.6",
+            "version": "3.0.7",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/bootstrap4.git",
-                "reference": "3.0.6"
+                "reference": "3.0.7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/bootstrap4-3.0.6.zip",
-                "reference": "3.0.6",
-                "shasum": "0732ba1ce28795b41279ca774b9b35d7b2d08704"
+                "url": "https://ftp.drupal.org/files/projects/bootstrap4-3.0.7.zip",
+                "reference": "3.0.7",
+                "shasum": "c4989d6fe4b0d33a07c47f4a7bad976a9ced30c3"
             },
             "require": {
-                "drupal/core": "^10.2 || ^11.0"
+                "drupal/core": "^10.2 || ^11"
             },
             "type": "drupal-theme",
             "extra": {
                 "drupal": {
-                    "version": "3.0.6",
-                    "datestamp": "1725013833",
+                    "version": "3.0.7",
+                    "datestamp": "1767794815",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -1380,21 +1380,21 @@
         },
         {
             "name": "drupal/ckeditor5_plugin_pack",
-            "version": "1.4.2",
+            "version": "1.5.0",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/ckeditor5_plugin_pack.git",
-                "reference": "1.4.2"
+                "reference": "1.5.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/ckeditor5_plugin_pack-1.4.2.zip",
-                "reference": "1.4.2",
-                "shasum": "c80d2e1a1c7e67494bf1a7eaedb506d7198cd57a"
+                "url": "https://ftp.drupal.org/files/projects/ckeditor5_plugin_pack-1.5.0.zip",
+                "reference": "1.5.0",
+                "shasum": "da0933ffdf035e3c21044aa1af70658b55d542e3"
             },
             "require": {
                 "drupal/ckeditor5_premium_features": "^1.5",
-                "drupal/core": "^9.4 || ^10.0 || ^11.0",
+                "drupal/core": "^10.3 || ^11.0",
                 "php": "^8.0"
             },
             "require-dev": {
@@ -1403,8 +1403,8 @@
             "type": "drupal-module",
             "extra": {
                 "drupal": {
-                    "version": "1.4.2",
-                    "datestamp": "1764157218",
+                    "version": "1.5.0",
+                    "datestamp": "1767812270",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -1436,17 +1436,17 @@
         },
         {
             "name": "drupal/ckeditor5_premium_features",
-            "version": "1.6.4",
+            "version": "1.7.0",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/ckeditor5_premium_features.git",
-                "reference": "1.6.4"
+                "reference": "1.7.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/ckeditor5_premium_features-1.6.4.zip",
-                "reference": "1.6.4",
-                "shasum": "d15479f581d0ee1dc135c4ba15a51550622074a0"
+                "url": "https://ftp.drupal.org/files/projects/ckeditor5_premium_features-1.7.0.zip",
+                "reference": "1.7.0",
+                "shasum": "0b6da9524261eaa38dc88e78c7211db9ad2a27d7"
             },
             "require": {
                 "drupal/core": "^10.3 || ^11.0",
@@ -1467,8 +1467,8 @@
             "type": "drupal-module",
             "extra": {
                 "drupal": {
-                    "version": "1.6.4",
-                    "datestamp": "1764788889",
+                    "version": "1.7.0",
+                    "datestamp": "1767812171",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
