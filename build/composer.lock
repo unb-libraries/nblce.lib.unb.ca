@@ -1895,17 +1895,17 @@
         },
         {
             "name": "drupal/editor_advanced_link",
-            "version": "2.3.3",
+            "version": "2.3.4",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/editor_advanced_link.git",
-                "reference": "2.3.3"
+                "reference": "2.3.4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/editor_advanced_link-2.3.3.zip",
-                "reference": "2.3.3",
-                "shasum": "e3c836ca67786b6e1535d605f15f9c2e2ec7559c"
+                "url": "https://ftp.drupal.org/files/projects/editor_advanced_link-2.3.4.zip",
+                "reference": "2.3.4",
+                "shasum": "654f0f3a705bd188556abcf72fe4412a98b1752a"
             },
             "require": {
                 "drupal/core": "^10.5 || ^11.2"
@@ -1917,8 +1917,8 @@
             "type": "drupal-module",
             "extra": {
                 "drupal": {
-                    "version": "2.3.3",
-                    "datestamp": "1763287133",
+                    "version": "2.3.4",
+                    "datestamp": "1768830974",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -10651,16 +10651,16 @@
         },
         {
             "name": "open-telemetry/sem-conv",
-            "version": "1.37.0",
+            "version": "1.38.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/opentelemetry-php/sem-conv.git",
-                "reference": "8da7ec497c881e39afa6657d72586e27efbd29a1"
+                "reference": "e613bc640a407def4991b8a936a9b27edd9a3240"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/opentelemetry-php/sem-conv/zipball/8da7ec497c881e39afa6657d72586e27efbd29a1",
-                "reference": "8da7ec497c881e39afa6657d72586e27efbd29a1",
+                "url": "https://api.github.com/repos/opentelemetry-php/sem-conv/zipball/e613bc640a407def4991b8a936a9b27edd9a3240",
+                "reference": "e613bc640a407def4991b8a936a9b27edd9a3240",
                 "shasum": ""
             },
             "require": {
@@ -10700,11 +10700,11 @@
             ],
             "support": {
                 "chat": "https://app.slack.com/client/T08PSQ7BQ/C01NFPCV44V",
-                "docs": "https://opentelemetry.io/docs/php",
+                "docs": "https://opentelemetry.io/docs/languages/php",
                 "issues": "https://github.com/open-telemetry/opentelemetry-php/issues",
                 "source": "https://github.com/open-telemetry/opentelemetry-php"
             },
-            "time": "2025-09-03T12:08:10+00:00"
+            "time": "2026-01-21T04:14:03+00:00"
         },
         {
             "name": "phar-io/manifest",
