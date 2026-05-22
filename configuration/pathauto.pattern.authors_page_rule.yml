@@ -7,7 +7,7 @@ dependencies:
 id: authors_page_rule
 label: 'Authors page rule'
 type: 'canonical_entities:node'
-pattern: 'resources/authors/[node:title]'
+pattern: '/resources/authors/[node:title]'
 selection_criteria:
   8633eea1-49ee-47ee-ae30-f093fb089c7a:
     id: 'entity_bundle:node'

@@ -7,7 +7,7 @@ dependencies:
 id: basic_page_rule
 label: 'Basic page rule'
 type: 'canonical_entities:node'
-pattern: '[node:menu-link:parent:title]/[node:title]'
+pattern: '/[node:menu-link:parent:title]/[node:title]'
 selection_criteria:
   8c1d6204-816b-453d-9890-f776d3c6305d:
     id: 'entity_bundle:node'

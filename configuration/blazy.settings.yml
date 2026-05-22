@@ -5,6 +5,7 @@ fx: ''
 noscript: false
 one_pixel: true
 placeholder: ''
+max_region_count: 0
 blazy:
   loadInvisible: false
   offset: 100
@@ -18,4 +19,3 @@ io:
   disconnect: false
   enabled: false
 extras: {  }
-max_region_count: 0

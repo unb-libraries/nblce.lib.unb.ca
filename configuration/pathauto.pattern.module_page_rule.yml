@@ -7,7 +7,7 @@ dependencies:
 id: module_page_rule
 label: 'Module page rule'
 type: 'canonical_entities:node'
-pattern: 'resources/modules/[node:title]'
+pattern: '/resources/modules/[node:title]'
 selection_criteria:
   e185d09a-f5a7-4a75-ab5b-9fc5ab5d50ec:
     id: 'entity_bundle:node'
