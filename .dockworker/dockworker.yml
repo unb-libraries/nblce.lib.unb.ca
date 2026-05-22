@@ -1,8 +1,12 @@
 dockworker:
   version: '6'
   drupal:
-  schemas:
-    ignore_enforcement:
+    schemas:
+      ignore_enforcement:
+        - linkit.linkit_profile.all_content_types.*
+        - login_destination.destination.front_page_redirect
+        - search_api.server.*
+        - views.view.author_list_alphabetical.*
   application:
     name: New Brunswick Literature Curriculum in English
     uri: https://nblce.lib.unb.ca
