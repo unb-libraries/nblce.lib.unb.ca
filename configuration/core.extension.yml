@@ -18,7 +18,6 @@ module:
   editor: 0
   editor_advanced_link: 0
   field: 0
-  field_ui: 0
   file: 0
   filter: 0
   google_analytics: 0
@@ -51,7 +50,6 @@ module:
   simple_sitemap: 0
   simple_sitemap_views: 0
   slick: 0
-  slick_ui: 0
   slick_views: 0
   system: 0
   taxonomy: 0
@@ -60,7 +58,6 @@ module:
   toolbar: 0
   update: 0
   user: 0
-  views_ui: 0
   menu_link_content: 1
   pathauto: 1
   externalauth: 10
